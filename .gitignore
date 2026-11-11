@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.sqlite3*
+*.jsonl
+*.plan.json
+*.plan.md
+.env*

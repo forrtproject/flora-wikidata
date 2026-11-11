@@ -1,0 +1,63 @@
+{
+  "checked_at": "2026-11-11T13:43:31.720213+00:00",
+  "live_edits": 0,
+  "authenticated_requests": 0,
+  "existing_example": {
+    "subject": "Q142111752",
+    "original": "Q142111820",
+    "goal": "Q117121930",
+    "subject_revision": 2567952448,
+    "statement_id": "Q142111752$e817022c-4646-d8b4-6047-e237259930d3",
+    "nanopublication_uri": "https://w3id.org/np/RAyhx8KgEJ3Q5GcKTLMLAvsg9m6Egs6SGn5n8-aauWg3I",
+    "exact_existing_relation_and_nanopublication_result": "skip",
+    "note": "Read-only deduplication check, not verification of the scientific assertion or authorization to edit."
+  },
+  "api_checked": [
+    "wbeditentity parameters",
+    "wbgetentities property datatypes",
+    "test site read-only siteinfo"
+  ],
+  "offline_demo": "10 synthetic statements; offline plans cannot be applied",
+  "not_performed": [
+    "real authentication",
+    "test-site writes",
+    "production writes",
+    "review of ten real FLoRA records"
+  ],
+  "automated_tests_passed": 75,
+  "doi_reconciliation": {
+    "doi": "10.1177/0022243720932532",
+    "qid": "Q142111820",
+    "read_only": true
+  },
+  "creation_update": {
+    "username": "Hb19988",
+    "csv_rows": 10,
+    "distinct_works": 19,
+    "source": "C:\\Users\\hamid\\Documents\\GitHub\\flora-validation\\output\\flora.csv",
+    "real_logins": 0,
+    "real_creations": 0,
+    "status": "input prepared; metadata review and local authentication still required"
+  },
+  "first_ten_online_check": {
+    "exact_doi_matches": 12,
+    "title_candidates_without_doi": 1,
+    "no_doi_or_title_match_found": 6,
+    "live_writes": 0,
+    "account_editcount": 12,
+    "autoconfirmed": false,
+    "note": "Fixed quoted identifier search after live read-only regression check. See online-check.json."
+  },
+  "prepared_creation_plan": {
+    "file": "six-items.create.plan.json",
+    "create_count": 6,
+    "reuse_count": 13,
+    "sources": [
+      "Crossref",
+      "DataCite",
+      "Wikidata"
+    ],
+    "actual_writes": 0,
+    "authentication": "individual creation checks edit/create rights; no blanket autoconfirmed gate"
+  }
+}

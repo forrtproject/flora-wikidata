@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "environment": "wikidata",
+  "dataset": {
+    "name": "FLoRA",
+    "version": "REPLACE with reviewed export version or commit",
+    "url": "REPLACE with the authoritative export or dataset URL",
+    "cc0_compatible": false
+  },
+  "records": [
+    {
+      "record_id": "REPLACE with stable FLoRA record ID",
+      "replication": {"qid": "", "doi": "", "title": "REPLACE with verified title"},
+      "original": {"qid": "", "doi": "", "title": "REPLACE with verified title"},
+      "cito": {"qid": "", "label": "REPLACE with exact current English label"},
+      "reference_url": "REPLACE with the nanopublication persistent URI",
+      "evidence_url": "REPLACE with the supporting source URL",
+      "retrieved": "YYYY-MM-DD",
+      "verified_by": "REPLACE with reviewer name",
+      "verified_at": "YYYY-MM-DD",
+      "review_note": "REPLACE with the evidence for the identity, direction, and classification of this relationship",
+      "model_review_note": "REPLACE with why this CiTO qualifier and citation-level scope are appropriate, plus discussion URL if applicable",
+      "whole_relation_appropriate": false
+    }
+  ]
+}

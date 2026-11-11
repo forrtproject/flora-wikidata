@@ -1,0 +1,2240 @@
+{
+  "schema_version": 1,
+  "environment": "wikidata",
+  "items_only": true,
+  "source_csv": {
+    "path": "C:\\Users\\hamid\\Documents\\GitHub\\flora-validation\\output\\flora.csv",
+    "sha256": "5826464541891f83c594ccc295a0512cf20329373c3b90a2fafc56e0a97e807c",
+    "selection": "first 10 data rows in file order; no sorting or replacement"
+  },
+  "dataset": {
+    "name": "FLoRA",
+    "version": "CSV SHA256 5826464541891f83c594ccc295a0512cf20329373c3b90a2fafc56e0a97e807c",
+    "url": "https://forrt.org/flora/",
+    "cc0_compatible": true,
+    "reuse_basis": "Selection from FLoRA; new bibliographic facts verified from Crossref/DataCite metadata. No abstracts, outcome quotes, or replication judgments imported.",
+    "reuse_sources": [
+      "https://www.crossref.org/documentation/retrieve-metadata/",
+      "https://support.datacite.org/docs/harvesting-datacite-doi-metadata"
+    ]
+  },
+  "records": [
+    {
+      "record_id": "FLORA-000001",
+      "csv_data_row": 1,
+      "metadata_reviewed": true,
+      "verified_by": "Codex: registry metadata and Wikidata reconciliation; operator confirms each save",
+      "verified_at": "2026-11-11",
+      "retrieved": "2026-11-11",
+      "review_note": "Bibliographic metadata checked against DOI registration records. Original/replication roles from CSV select works only; no outcome assertion imported.",
+      "original": {
+        "work_key": "10.1016/0010-0285(72)90003-5",
+        "qid": "Q140220709",
+        "doi": "10.1016/0010-0285(72)90003-5",
+        "title": "Sentence memory: A constructive versus interpretive approach",
+        "description": "",
+        "metadata_source_url": "https://doi.org/10.1016/0010-0285(72)90003-5",
+        "creation_reviewed": false,
+        "creation_review_note": "",
+        "attributes": [
+          {
+            "property": "P31",
+            "datatype": "wikibase-item",
+            "value": "",
+            "source_url": "https://doi.org/10.1016/0010-0285(72)90003-5"
+          },
+          {
+            "property": "P1476",
+            "datatype": "monolingualtext",
+            "value": {
+              "text": "Sentence memory: A constructive versus interpretive approach",
+              "language": "en"
+            },
+            "source_url": "https://doi.org/10.1016/0010-0285(72)90003-5"
+          },
+          {
+            "property": "P577",
+            "datatype": "time",
+            "value": "1972-01-01",
+            "precision": 9,
+            "source_url": "https://doi.org/10.1016/0010-0285(72)90003-5"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "John D. Bransford",
+            "ordinal": 1,
+            "source_url": "https://doi.org/10.1016/0010-0285(72)90003-5"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "J.Richard Barclay",
+            "ordinal": 2,
+            "source_url": "https://doi.org/10.1016/0010-0285(72)90003-5"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Jeffery J. Franks",
+            "ordinal": 3,
+            "source_url": "https://doi.org/10.1016/0010-0285(72)90003-5"
+          },
+          {
+            "property": "P478",
+            "datatype": "string",
+            "value": "3",
+            "source_url": "https://doi.org/10.1016/0010-0285(72)90003-5"
+          },
+          {
+            "property": "P433",
+            "datatype": "string",
+            "value": "2",
+            "source_url": "https://doi.org/10.1016/0010-0285(72)90003-5"
+          },
+          {
+            "property": "P304",
+            "datatype": "string",
+            "value": "193-209",
+            "source_url": "https://doi.org/10.1016/0010-0285(72)90003-5"
+          }
+        ],
+        "unmapped_metadata": {
+          "journal_name": "Cognitive Psychology",
+          "alternative_identifier": "",
+          "url": "https://doi.org/10.1016/0010-0285(72)90003-5"
+        }
+      },
+      "replication": {
+        "work_key": "10.17605/OSF.IO/BU3GM",
+        "qid": "",
+        "doi": "10.17605/osf.io/bu3gm",
+        "title": "Spontaneous construction of causally relevant spatial models: Bulgarian replication of the model-type effect",
+        "description": "research preregistration deposited on OSF in 2025",
+        "metadata_source_url": "https://api.datacite.org/dois/10.17605%2FOSF.IO%2FBU3GM",
+        "creation_reviewed": true,
+        "creation_review_note": "No exact DOI match, no exact title search candidate, and no wbsearchentities candidate on 11 November 2026; metadata verified at https://api.datacite.org/dois/10.17605%2FOSF.IO%2FBU3GM. Operator must review the item before save.",
+        "attributes": [
+          {
+            "property": "P31",
+            "datatype": "wikibase-item",
+            "value": "Q47461344",
+            "source_url": "https://api.datacite.org/dois/10.17605%2FOSF.IO%2FBU3GM"
+          },
+          {
+            "property": "P1476",
+            "datatype": "monolingualtext",
+            "value": {
+              "text": "Spontaneous construction of causally relevant spatial models: Bulgarian replication of the model-type effect",
+              "language": "en"
+            },
+            "source_url": "https://api.datacite.org/dois/10.17605%2FOSF.IO%2FBU3GM"
+          },
+          {
+            "property": "P577",
+            "datatype": "time",
+            "value": "2025-01-01",
+            "source_url": "https://api.datacite.org/dois/10.17605%2FOSF.IO%2FBU3GM",
+            "precision": 9
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Nikolay R. Rachev",
+            "source_url": "https://api.datacite.org/dois/10.17605%2FOSF.IO%2FBU3GM",
+            "ordinal": 1
+          }
+        ],
+        "unmapped_metadata": {
+          "journal_name": "OSF Registries",
+          "alternative_identifier": "",
+          "url": ""
+        }
+      }
+    },
+    {
+      "record_id": "FLORA-000002",
+      "csv_data_row": 2,
+      "metadata_reviewed": true,
+      "verified_by": "Codex: registry metadata and Wikidata reconciliation; operator confirms each save",
+      "verified_at": "2026-11-11",
+      "retrieved": "2026-11-11",
+      "review_note": "Bibliographic metadata checked against DOI registration records. Original/replication roles from CSV select works only; no outcome assertion imported.",
+      "original": {
+        "work_key": "10.1037/H0080111",
+        "qid": "Q38490712",
+        "doi": "",
+        "title": "Against parafoveal semantic preprocessing during eye fixations in reading.",
+        "description": "",
+        "metadata_source_url": "https://doi.org/10.1037/h0080111",
+        "creation_reviewed": false,
+        "creation_review_note": "",
+        "attributes": [
+          {
+            "property": "P31",
+            "datatype": "wikibase-item",
+            "value": "",
+            "source_url": "https://doi.org/10.1037/h0080111"
+          },
+          {
+            "property": "P1476",
+            "datatype": "monolingualtext",
+            "value": {
+              "text": "Against parafoveal semantic preprocessing during eye fixations in reading.",
+              "language": "en"
+            },
+            "source_url": "https://doi.org/10.1037/h0080111"
+          },
+          {
+            "property": "P577",
+            "datatype": "time",
+            "value": "1986-01-01",
+            "precision": 9,
+            "source_url": "https://doi.org/10.1037/h0080111"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Keith Rayner",
+            "ordinal": 1,
+            "source_url": "https://doi.org/10.1037/h0080111"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "David A. Balota",
+            "ordinal": 2,
+            "source_url": "https://doi.org/10.1037/h0080111"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Alexander Pollatsek",
+            "ordinal": 3,
+            "source_url": "https://doi.org/10.1037/h0080111"
+          },
+          {
+            "property": "P478",
+            "datatype": "string",
+            "value": "40",
+            "source_url": "https://doi.org/10.1037/h0080111"
+          },
+          {
+            "property": "P433",
+            "datatype": "string",
+            "value": "4",
+            "source_url": "https://doi.org/10.1037/h0080111"
+          },
+          {
+            "property": "P304",
+            "datatype": "string",
+            "value": "473-483",
+            "source_url": "https://doi.org/10.1037/h0080111"
+          }
+        ],
+        "unmapped_metadata": {
+          "journal_name": "Canadian Journal of Psychology / Revue canadienne de psychologie",
+          "alternative_identifier": "",
+          "url": "https://doi.org/10.1037/h0080111"
+        },
+        "reviewed_doi": "10.1037/H0080111",
+        "identity_review": "Title, authors (Rayner, Balota, Pollatsek), December 1986, volume 40 issue 4 pages 473-483 match Crossref and existing item. Existing item has no DOI; reuse without changing it."
+      },
+      "replication": {
+        "work_key": "10.3758/S13423-014-0582-9",
+        "qid": "Q33923197",
+        "doi": "10.3758/s13423-014-0582-9",
+        "title": "Lack of semantic parafoveal preview benefit in reading revisited",
+        "description": "",
+        "metadata_source_url": "https://doi.org/10.3758/s13423-014-0582-9",
+        "creation_reviewed": false,
+        "creation_review_note": "",
+        "attributes": [
+          {
+            "property": "P31",
+            "datatype": "wikibase-item",
+            "value": "",
+            "source_url": "https://doi.org/10.3758/s13423-014-0582-9"
+          },
+          {
+            "property": "P1476",
+            "datatype": "monolingualtext",
+            "value": {
+              "text": "Lack of semantic parafoveal preview benefit in reading revisited",
+              "language": "en"
+            },
+            "source_url": "https://doi.org/10.3758/s13423-014-0582-9"
+          },
+          {
+            "property": "P577",
+            "datatype": "time",
+            "value": "2014-01-01",
+            "precision": 9,
+            "source_url": "https://doi.org/10.3758/s13423-014-0582-9"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Keith Rayner",
+            "ordinal": 1,
+            "source_url": "https://doi.org/10.3758/s13423-014-0582-9"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Elizabeth R. Schotter",
+            "ordinal": 2,
+            "source_url": "https://doi.org/10.3758/s13423-014-0582-9"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Denis Drieghe",
+            "ordinal": 3,
+            "source_url": "https://doi.org/10.3758/s13423-014-0582-9"
+          },
+          {
+            "property": "P478",
+            "datatype": "string",
+            "value": "21",
+            "source_url": "https://doi.org/10.3758/s13423-014-0582-9"
+          },
+          {
+            "property": "P433",
+            "datatype": "string",
+            "value": "4",
+            "source_url": "https://doi.org/10.3758/s13423-014-0582-9"
+          },
+          {
+            "property": "P304",
+            "datatype": "string",
+            "value": "1067-1072",
+            "source_url": "https://doi.org/10.3758/s13423-014-0582-9"
+          }
+        ],
+        "unmapped_metadata": {
+          "journal_name": "Psychonomic Bulletin & Review",
+          "alternative_identifier": "",
+          "url": ""
+        }
+      }
+    },
+    {
+      "record_id": "FLORA-000003",
+      "csv_data_row": 3,
+      "metadata_reviewed": true,
+      "verified_by": "Codex: registry metadata and Wikidata reconciliation; operator confirms each save",
+      "verified_at": "2026-11-11",
+      "retrieved": "2026-11-11",
+      "review_note": "Bibliographic metadata checked against DOI registration records. Original/replication roles from CSV select works only; no outcome assertion imported.",
+      "original": {
+        "work_key": "10.1093/HMG/DDP542",
+        "qid": "Q33630669",
+        "doi": "10.1093/hmg/ddp542",
+        "title": "Comprehensive follow-up of the first genome-wide association study of multiple sclerosis identifies KIF21B and TMEM39A as susceptibility loci",
+        "description": "",
+        "metadata_source_url": "https://doi.org/10.1093/hmg/ddp542",
+        "creation_reviewed": false,
+        "creation_review_note": "",
+        "attributes": [
+          {
+            "property": "P31",
+            "datatype": "wikibase-item",
+            "value": "",
+            "source_url": "https://doi.org/10.1093/hmg/ddp542"
+          },
+          {
+            "property": "P1476",
+            "datatype": "monolingualtext",
+            "value": {
+              "text": "Comprehensive follow-up of the first genome-wide association study of multiple sclerosis identifies KIF21B and TMEM39A as susceptibility loci",
+              "language": "en"
+            },
+            "source_url": "https://doi.org/10.1093/hmg/ddp542"
+          },
+          {
+            "property": "P577",
+            "datatype": "time",
+            "value": "2009-01-01",
+            "precision": 9,
+            "source_url": "https://doi.org/10.1093/hmg/ddp542"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "The International Multiple Sclerosis Genetics Consortium (IMSGC)",
+            "ordinal": 1,
+            "source_url": "https://doi.org/10.1093/hmg/ddp542"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Jacob L. McCauley",
+            "ordinal": 2,
+            "source_url": "https://doi.org/10.1093/hmg/ddp542"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Rebecca L. Zuvich",
+            "ordinal": 3,
+            "source_url": "https://doi.org/10.1093/hmg/ddp542"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Ashley H. Beecham",
+            "ordinal": 4,
+            "source_url": "https://doi.org/10.1093/hmg/ddp542"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Philip L. De Jager",
+            "ordinal": 5,
+            "source_url": "https://doi.org/10.1093/hmg/ddp542"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Ioanna Konidari",
+            "ordinal": 6,
+            "source_url": "https://doi.org/10.1093/hmg/ddp542"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Patrice L. Whitehead",
+            "ordinal": 7,
+            "source_url": "https://doi.org/10.1093/hmg/ddp542"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Cristin Aubin",
+            "ordinal": 8,
+            "source_url": "https://doi.org/10.1093/hmg/ddp542"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Maria Ban",
+            "ordinal": 9,
+            "source_url": "https://doi.org/10.1093/hmg/ddp542"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Susan Pobywajlo",
+            "ordinal": 10,
+            "source_url": "https://doi.org/10.1093/hmg/ddp542"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Rebeccah Briskin",
+            "ordinal": 11,
+            "source_url": "https://doi.org/10.1093/hmg/ddp542"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Susan Romano",
+            "ordinal": 12,
+            "source_url": "https://doi.org/10.1093/hmg/ddp542"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Neelum T. Aggarwal",
+            "ordinal": 13,
+            "source_url": "https://doi.org/10.1093/hmg/ddp542"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Laura Piccio",
+            "ordinal": 14,
+            "source_url": "https://doi.org/10.1093/hmg/ddp542"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Wendy L. McArdle",
+            "ordinal": 15,
+            "source_url": "https://doi.org/10.1093/hmg/ddp542"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "David P. Strachan",
+            "ordinal": 16,
+            "source_url": "https://doi.org/10.1093/hmg/ddp542"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Denis Evans",
+            "ordinal": 17,
+            "source_url": "https://doi.org/10.1093/hmg/ddp542"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Anne H. Cross",
+            "ordinal": 18,
+            "source_url": "https://doi.org/10.1093/hmg/ddp542"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Bruce Cree",
+            "ordinal": 19,
+            "source_url": "https://doi.org/10.1093/hmg/ddp542"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "John D. Rioux",
+            "ordinal": 20,
+            "source_url": "https://doi.org/10.1093/hmg/ddp542"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Lisa F. Barcellos",
+            "ordinal": 21,
+            "source_url": "https://doi.org/10.1093/hmg/ddp542"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Adrian J. Ivinson",
+            "ordinal": 22,
+            "source_url": "https://doi.org/10.1093/hmg/ddp542"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Alastair Compston",
+            "ordinal": 23,
+            "source_url": "https://doi.org/10.1093/hmg/ddp542"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "David A. Hafler",
+            "ordinal": 24,
+            "source_url": "https://doi.org/10.1093/hmg/ddp542"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Stephen L. Hauser",
+            "ordinal": 25,
+            "source_url": "https://doi.org/10.1093/hmg/ddp542"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Jorge R. Oksenberg",
+            "ordinal": 26,
+            "source_url": "https://doi.org/10.1093/hmg/ddp542"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Stephen J. Sawcer",
+            "ordinal": 27,
+            "source_url": "https://doi.org/10.1093/hmg/ddp542"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Margaret A. Pericak-Vance",
+            "ordinal": 28,
+            "source_url": "https://doi.org/10.1093/hmg/ddp542"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Jonathan L. Haines",
+            "ordinal": 29,
+            "source_url": "https://doi.org/10.1093/hmg/ddp542"
+          },
+          {
+            "property": "P478",
+            "datatype": "string",
+            "value": "19",
+            "source_url": "https://doi.org/10.1093/hmg/ddp542"
+          },
+          {
+            "property": "P433",
+            "datatype": "string",
+            "value": "5",
+            "source_url": "https://doi.org/10.1093/hmg/ddp542"
+          },
+          {
+            "property": "P304",
+            "datatype": "string",
+            "value": "953-962",
+            "source_url": "https://doi.org/10.1093/hmg/ddp542"
+          }
+        ],
+        "unmapped_metadata": {
+          "journal_name": "Human Molecular Genetics",
+          "alternative_identifier": "",
+          "url": "https://doi.org/10.1093/hmg/ddp542"
+        }
+      },
+      "replication": {
+        "work_key": "10.1136/JMG.2009.075911",
+        "qid": "Q59149666",
+        "doi": "10.1136/jmg.2009.075911",
+        "title": "Replication of KIF21B as a susceptibility locus for multiple sclerosis: Table 1",
+        "description": "",
+        "metadata_source_url": "https://doi.org/10.1136/jmg.2009.075911",
+        "creation_reviewed": false,
+        "creation_review_note": "",
+        "attributes": [
+          {
+            "property": "P31",
+            "datatype": "wikibase-item",
+            "value": "",
+            "source_url": "https://doi.org/10.1136/jmg.2009.075911"
+          },
+          {
+            "property": "P1476",
+            "datatype": "monolingualtext",
+            "value": {
+              "text": "Replication of KIF21B as a susceptibility locus for multiple sclerosis: Table 1",
+              "language": "en"
+            },
+            "source_url": "https://doi.org/10.1136/jmg.2009.075911"
+          },
+          {
+            "property": "P577",
+            "datatype": "time",
+            "value": "2010-01-01",
+            "precision": 9,
+            "source_url": "https://doi.org/10.1136/jmg.2009.075911"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "A Goris",
+            "ordinal": 1,
+            "source_url": "https://doi.org/10.1136/jmg.2009.075911"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "S Boonen",
+            "ordinal": 2,
+            "source_url": "https://doi.org/10.1136/jmg.2009.075911"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "M-B D'hooghe",
+            "ordinal": 3,
+            "source_url": "https://doi.org/10.1136/jmg.2009.075911"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "B Dubois",
+            "ordinal": 4,
+            "source_url": "https://doi.org/10.1136/jmg.2009.075911"
+          },
+          {
+            "property": "P478",
+            "datatype": "string",
+            "value": "47",
+            "source_url": "https://doi.org/10.1136/jmg.2009.075911"
+          },
+          {
+            "property": "P433",
+            "datatype": "string",
+            "value": "11",
+            "source_url": "https://doi.org/10.1136/jmg.2009.075911"
+          },
+          {
+            "property": "P304",
+            "datatype": "string",
+            "value": "775-776",
+            "source_url": "https://doi.org/10.1136/jmg.2009.075911"
+          }
+        ],
+        "unmapped_metadata": {
+          "journal_name": "Journal of Medical Genetics",
+          "alternative_identifier": "",
+          "url": ""
+        }
+      }
+    },
+    {
+      "record_id": "FLORA-000004",
+      "csv_data_row": 4,
+      "metadata_reviewed": true,
+      "verified_by": "Codex: registry metadata and Wikidata reconciliation; operator confirms each save",
+      "verified_at": "2026-11-11",
+      "retrieved": "2026-11-11",
+      "review_note": "Bibliographic metadata checked against DOI registration records. Original/replication roles from CSV select works only; no outcome assertion imported.",
+      "original": {
+        "work_key": "10.1016/S2213-8587(18)30051-2",
+        "qid": "Q52675077",
+        "doi": "10.1016/s2213-8587(18)30051-2",
+        "title": "Novel subgroups of adult-onset diabetes and their association with outcomes: a data-driven cluster analysis of six variables",
+        "description": "",
+        "metadata_source_url": "https://doi.org/10.1016/s2213-8587(18)30051-2",
+        "creation_reviewed": false,
+        "creation_review_note": "",
+        "attributes": [
+          {
+            "property": "P31",
+            "datatype": "wikibase-item",
+            "value": "",
+            "source_url": "https://doi.org/10.1016/s2213-8587(18)30051-2"
+          },
+          {
+            "property": "P1476",
+            "datatype": "monolingualtext",
+            "value": {
+              "text": "Novel subgroups of adult-onset diabetes and their association with outcomes: a data-driven cluster analysis of six variables",
+              "language": "en"
+            },
+            "source_url": "https://doi.org/10.1016/s2213-8587(18)30051-2"
+          },
+          {
+            "property": "P577",
+            "datatype": "time",
+            "value": "2018-01-01",
+            "precision": 9,
+            "source_url": "https://doi.org/10.1016/s2213-8587(18)30051-2"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Emma Ahlqvist",
+            "ordinal": 1,
+            "source_url": "https://doi.org/10.1016/s2213-8587(18)30051-2"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Petter Storm",
+            "ordinal": 2,
+            "source_url": "https://doi.org/10.1016/s2213-8587(18)30051-2"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Annemari Käräjämäki",
+            "ordinal": 3,
+            "source_url": "https://doi.org/10.1016/s2213-8587(18)30051-2"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Mats Martinell",
+            "ordinal": 4,
+            "source_url": "https://doi.org/10.1016/s2213-8587(18)30051-2"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Mozhgan Dorkhan",
+            "ordinal": 5,
+            "source_url": "https://doi.org/10.1016/s2213-8587(18)30051-2"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Annelie Carlsson",
+            "ordinal": 6,
+            "source_url": "https://doi.org/10.1016/s2213-8587(18)30051-2"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Petter Vikman",
+            "ordinal": 7,
+            "source_url": "https://doi.org/10.1016/s2213-8587(18)30051-2"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Rashmi B Prasad",
+            "ordinal": 8,
+            "source_url": "https://doi.org/10.1016/s2213-8587(18)30051-2"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Dina Mansour Aly",
+            "ordinal": 9,
+            "source_url": "https://doi.org/10.1016/s2213-8587(18)30051-2"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Peter Almgren",
+            "ordinal": 10,
+            "source_url": "https://doi.org/10.1016/s2213-8587(18)30051-2"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Ylva Wessman",
+            "ordinal": 11,
+            "source_url": "https://doi.org/10.1016/s2213-8587(18)30051-2"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Nael Shaat",
+            "ordinal": 12,
+            "source_url": "https://doi.org/10.1016/s2213-8587(18)30051-2"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Peter Spégel",
+            "ordinal": 13,
+            "source_url": "https://doi.org/10.1016/s2213-8587(18)30051-2"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Hindrik Mulder",
+            "ordinal": 14,
+            "source_url": "https://doi.org/10.1016/s2213-8587(18)30051-2"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Eero Lindholm",
+            "ordinal": 15,
+            "source_url": "https://doi.org/10.1016/s2213-8587(18)30051-2"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Olle Melander",
+            "ordinal": 16,
+            "source_url": "https://doi.org/10.1016/s2213-8587(18)30051-2"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Ola Hansson",
+            "ordinal": 17,
+            "source_url": "https://doi.org/10.1016/s2213-8587(18)30051-2"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Ulf Malmqvist",
+            "ordinal": 18,
+            "source_url": "https://doi.org/10.1016/s2213-8587(18)30051-2"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Åke Lernmark",
+            "ordinal": 19,
+            "source_url": "https://doi.org/10.1016/s2213-8587(18)30051-2"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Kaj Lahti",
+            "ordinal": 20,
+            "source_url": "https://doi.org/10.1016/s2213-8587(18)30051-2"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Tom Forsén",
+            "ordinal": 21,
+            "source_url": "https://doi.org/10.1016/s2213-8587(18)30051-2"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Tiinamaija Tuomi",
+            "ordinal": 22,
+            "source_url": "https://doi.org/10.1016/s2213-8587(18)30051-2"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Anders H Rosengren",
+            "ordinal": 23,
+            "source_url": "https://doi.org/10.1016/s2213-8587(18)30051-2"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Leif Groop",
+            "ordinal": 24,
+            "source_url": "https://doi.org/10.1016/s2213-8587(18)30051-2"
+          },
+          {
+            "property": "P478",
+            "datatype": "string",
+            "value": "6",
+            "source_url": "https://doi.org/10.1016/s2213-8587(18)30051-2"
+          },
+          {
+            "property": "P433",
+            "datatype": "string",
+            "value": "5",
+            "source_url": "https://doi.org/10.1016/s2213-8587(18)30051-2"
+          },
+          {
+            "property": "P304",
+            "datatype": "string",
+            "value": "361-369",
+            "source_url": "https://doi.org/10.1016/s2213-8587(18)30051-2"
+          }
+        ],
+        "unmapped_metadata": {
+          "journal_name": "The Lancet Diabetes & Endocrinology",
+          "alternative_identifier": "",
+          "url": "https://doi.org/10.1016/s2213-8587(18)30051-2"
+        }
+      },
+      "replication": {
+        "work_key": "10.1007/S00125-021-05490-8",
+        "qid": "Q112291395",
+        "doi": "10.1007/s00125-021-05490-8",
+        "title": "Replication and cross-validation of type 2 diabetes subtypes based on clinical variables: an IMI-RHAPSODY study",
+        "description": "",
+        "metadata_source_url": "https://doi.org/10.1007/s00125-021-05490-8",
+        "creation_reviewed": false,
+        "creation_review_note": "",
+        "attributes": [
+          {
+            "property": "P31",
+            "datatype": "wikibase-item",
+            "value": "",
+            "source_url": "https://doi.org/10.1007/s00125-021-05490-8"
+          },
+          {
+            "property": "P1476",
+            "datatype": "monolingualtext",
+            "value": {
+              "text": "Replication and cross-validation of type 2 diabetes subtypes based on clinical variables: an IMI-RHAPSODY study",
+              "language": "en"
+            },
+            "source_url": "https://doi.org/10.1007/s00125-021-05490-8"
+          },
+          {
+            "property": "P577",
+            "datatype": "time",
+            "value": "2021-01-01",
+            "precision": 9,
+            "source_url": "https://doi.org/10.1007/s00125-021-05490-8"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Roderick C. Slieker",
+            "ordinal": 1,
+            "source_url": "https://doi.org/10.1007/s00125-021-05490-8"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Louise A. Donnelly",
+            "ordinal": 2,
+            "source_url": "https://doi.org/10.1007/s00125-021-05490-8"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Hugo Fitipaldi",
+            "ordinal": 3,
+            "source_url": "https://doi.org/10.1007/s00125-021-05490-8"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Gerard A. Bouland",
+            "ordinal": 4,
+            "source_url": "https://doi.org/10.1007/s00125-021-05490-8"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Giuseppe N. Giordano",
+            "ordinal": 5,
+            "source_url": "https://doi.org/10.1007/s00125-021-05490-8"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Mikael Åkerlund",
+            "ordinal": 6,
+            "source_url": "https://doi.org/10.1007/s00125-021-05490-8"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Mathias J. Gerl",
+            "ordinal": 7,
+            "source_url": "https://doi.org/10.1007/s00125-021-05490-8"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Emma Ahlqvist",
+            "ordinal": 8,
+            "source_url": "https://doi.org/10.1007/s00125-021-05490-8"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Ashfaq Ali",
+            "ordinal": 9,
+            "source_url": "https://doi.org/10.1007/s00125-021-05490-8"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Iulian Dragan",
+            "ordinal": 10,
+            "source_url": "https://doi.org/10.1007/s00125-021-05490-8"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Andreas Festa",
+            "ordinal": 11,
+            "source_url": "https://doi.org/10.1007/s00125-021-05490-8"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Michael K. Hansen",
+            "ordinal": 12,
+            "source_url": "https://doi.org/10.1007/s00125-021-05490-8"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Dina Mansour Aly",
+            "ordinal": 13,
+            "source_url": "https://doi.org/10.1007/s00125-021-05490-8"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Min Kim",
+            "ordinal": 14,
+            "source_url": "https://doi.org/10.1007/s00125-021-05490-8"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Dmitry Kuznetsov",
+            "ordinal": 15,
+            "source_url": "https://doi.org/10.1007/s00125-021-05490-8"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Florence Mehl",
+            "ordinal": 16,
+            "source_url": "https://doi.org/10.1007/s00125-021-05490-8"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Christian Klose",
+            "ordinal": 17,
+            "source_url": "https://doi.org/10.1007/s00125-021-05490-8"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Kai Simons",
+            "ordinal": 18,
+            "source_url": "https://doi.org/10.1007/s00125-021-05490-8"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Imre Pavo",
+            "ordinal": 19,
+            "source_url": "https://doi.org/10.1007/s00125-021-05490-8"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Timothy J. Pullen",
+            "ordinal": 20,
+            "source_url": "https://doi.org/10.1007/s00125-021-05490-8"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Tommi Suvitaival",
+            "ordinal": 21,
+            "source_url": "https://doi.org/10.1007/s00125-021-05490-8"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Asger Wretlind",
+            "ordinal": 22,
+            "source_url": "https://doi.org/10.1007/s00125-021-05490-8"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Peter Rossing",
+            "ordinal": 23,
+            "source_url": "https://doi.org/10.1007/s00125-021-05490-8"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Valeriya Lyssenko",
+            "ordinal": 24,
+            "source_url": "https://doi.org/10.1007/s00125-021-05490-8"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Cristina Legido-Quigley",
+            "ordinal": 25,
+            "source_url": "https://doi.org/10.1007/s00125-021-05490-8"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Leif Groop",
+            "ordinal": 26,
+            "source_url": "https://doi.org/10.1007/s00125-021-05490-8"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Bernard Thorens",
+            "ordinal": 27,
+            "source_url": "https://doi.org/10.1007/s00125-021-05490-8"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Paul W. Franks",
+            "ordinal": 28,
+            "source_url": "https://doi.org/10.1007/s00125-021-05490-8"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Mark Ibberson",
+            "ordinal": 29,
+            "source_url": "https://doi.org/10.1007/s00125-021-05490-8"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Guy A. Rutter",
+            "ordinal": 30,
+            "source_url": "https://doi.org/10.1007/s00125-021-05490-8"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Joline W. J. Beulens",
+            "ordinal": 31,
+            "source_url": "https://doi.org/10.1007/s00125-021-05490-8"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Leen M. ‘t Hart",
+            "ordinal": 32,
+            "source_url": "https://doi.org/10.1007/s00125-021-05490-8"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Ewan R. Pearson",
+            "ordinal": 33,
+            "source_url": "https://doi.org/10.1007/s00125-021-05490-8"
+          },
+          {
+            "property": "P478",
+            "datatype": "string",
+            "value": "64",
+            "source_url": "https://doi.org/10.1007/s00125-021-05490-8"
+          },
+          {
+            "property": "P433",
+            "datatype": "string",
+            "value": "9",
+            "source_url": "https://doi.org/10.1007/s00125-021-05490-8"
+          },
+          {
+            "property": "P304",
+            "datatype": "string",
+            "value": "1982-1989",
+            "source_url": "https://doi.org/10.1007/s00125-021-05490-8"
+          }
+        ],
+        "unmapped_metadata": {
+          "journal_name": "Diabetologia",
+          "alternative_identifier": "",
+          "url": ""
+        }
+      }
+    },
+    {
+      "record_id": "FLORA-000005",
+      "csv_data_row": 5,
+      "metadata_reviewed": true,
+      "verified_by": "Codex: registry metadata and Wikidata reconciliation; operator confirms each save",
+      "verified_at": "2026-11-11",
+      "retrieved": "2026-11-11",
+      "review_note": "Bibliographic metadata checked against DOI registration records. Original/replication roles from CSV select works only; no outcome assertion imported.",
+      "original": {
+        "work_key": "10.1080/01690960802164242",
+        "qid": "",
+        "doi": "10.1080/01690960802164242",
+        "title": "Does darkness lead to happiness? Masked suffix priming effects",
+        "description": "scholarly article first published in 2008",
+        "metadata_source_url": "https://api.crossref.org/works/10.1080%2F01690960802164242",
+        "creation_reviewed": true,
+        "creation_review_note": "No exact DOI match, no exact title search candidate, and no wbsearchentities candidate on 11 November 2026; metadata verified at https://api.crossref.org/works/10.1080%2F01690960802164242. Operator must review the item before save.",
+        "attributes": [
+          {
+            "property": "P31",
+            "datatype": "wikibase-item",
+            "value": "Q13442814",
+            "source_url": "https://api.crossref.org/works/10.1080%2F01690960802164242"
+          },
+          {
+            "property": "P1476",
+            "datatype": "monolingualtext",
+            "value": {
+              "text": "Does darkness lead to happiness? Masked suffix priming effects",
+              "language": "en"
+            },
+            "source_url": "https://api.crossref.org/works/10.1080%2F01690960802164242"
+          },
+          {
+            "property": "P577",
+            "datatype": "time",
+            "value": "2008-01-01",
+            "source_url": "https://api.crossref.org/works/10.1080%2F01690960802164242",
+            "precision": 9
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Jon Andoni Duñabeitia",
+            "source_url": "https://api.crossref.org/works/10.1080%2F01690960802164242",
+            "ordinal": 1
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Manuel Perea",
+            "source_url": "https://api.crossref.org/works/10.1080%2F01690960802164242",
+            "ordinal": 2
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Manuel Carreiras",
+            "source_url": "https://api.crossref.org/works/10.1080%2F01690960802164242",
+            "ordinal": 3
+          },
+          {
+            "property": "P478",
+            "datatype": "string",
+            "value": "23",
+            "source_url": "https://api.crossref.org/works/10.1080%2F01690960802164242"
+          },
+          {
+            "property": "P433",
+            "datatype": "string",
+            "value": "7-8",
+            "source_url": "https://api.crossref.org/works/10.1080%2F01690960802164242"
+          },
+          {
+            "property": "P304",
+            "datatype": "string",
+            "value": "1002-1020",
+            "source_url": "https://api.crossref.org/works/10.1080%2F01690960802164242"
+          },
+          {
+            "property": "P1433",
+            "datatype": "wikibase-item",
+            "value": "Q15757318",
+            "source_url": "https://api.crossref.org/works/10.1080%2F01690960802164242"
+          }
+        ],
+        "unmapped_metadata": {
+          "journal_name": "Language and Cognitive Processes",
+          "alternative_identifier": "",
+          "url": "https://doi.org/10.1080/01690960802164242"
+        }
+      },
+      "replication": {
+        "work_key": "10.1007/S11145-018-9858-1",
+        "qid": "Q129832916",
+        "doi": "10.1007/s11145-018-9858-1",
+        "title": "Morphological effects in word identification: tracking the developmental trajectory of derivational suffixes in Spanish",
+        "description": "",
+        "metadata_source_url": "https://doi.org/10.1007/s11145-018-9858-1",
+        "creation_reviewed": false,
+        "creation_review_note": "",
+        "attributes": [
+          {
+            "property": "P31",
+            "datatype": "wikibase-item",
+            "value": "",
+            "source_url": "https://doi.org/10.1007/s11145-018-9858-1"
+          },
+          {
+            "property": "P1476",
+            "datatype": "monolingualtext",
+            "value": {
+              "text": "Morphological effects in word identification: tracking the developmental trajectory of derivational suffixes in Spanish",
+              "language": "en"
+            },
+            "source_url": "https://doi.org/10.1007/s11145-018-9858-1"
+          },
+          {
+            "property": "P577",
+            "datatype": "time",
+            "value": "2018-01-01",
+            "precision": 9,
+            "source_url": "https://doi.org/10.1007/s11145-018-9858-1"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Miguel Lázaro",
+            "ordinal": 1,
+            "source_url": "https://doi.org/10.1007/s11145-018-9858-1"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Víctor Illera",
+            "ordinal": 2,
+            "source_url": "https://doi.org/10.1007/s11145-018-9858-1"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Joana Acha",
+            "ordinal": 3,
+            "source_url": "https://doi.org/10.1007/s11145-018-9858-1"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Ainoa Escalonilla",
+            "ordinal": 4,
+            "source_url": "https://doi.org/10.1007/s11145-018-9858-1"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Seila García",
+            "ordinal": 5,
+            "source_url": "https://doi.org/10.1007/s11145-018-9858-1"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Javier S. Sainz",
+            "ordinal": 6,
+            "source_url": "https://doi.org/10.1007/s11145-018-9858-1"
+          },
+          {
+            "property": "P478",
+            "datatype": "string",
+            "value": "31",
+            "source_url": "https://doi.org/10.1007/s11145-018-9858-1"
+          },
+          {
+            "property": "P433",
+            "datatype": "string",
+            "value": "7",
+            "source_url": "https://doi.org/10.1007/s11145-018-9858-1"
+          },
+          {
+            "property": "P304",
+            "datatype": "string",
+            "value": "1669-1684",
+            "source_url": "https://doi.org/10.1007/s11145-018-9858-1"
+          }
+        ],
+        "unmapped_metadata": {
+          "journal_name": "Reading and Writing",
+          "alternative_identifier": "",
+          "url": ""
+        }
+      }
+    },
+    {
+      "record_id": "FLORA-000006",
+      "csv_data_row": 6,
+      "metadata_reviewed": true,
+      "verified_by": "Codex: registry metadata and Wikidata reconciliation; operator confirms each save",
+      "verified_at": "2026-11-11",
+      "retrieved": "2026-11-11",
+      "review_note": "Bibliographic metadata checked against DOI registration records. Original/replication roles from CSV select works only; no outcome assertion imported.",
+      "original": {
+        "work_key": "10.1002/TEA.21227",
+        "qid": "Q56505629",
+        "doi": "10.1002/tea.21227",
+        "title": "“Science capital”: A conceptual, methodological, and empirical argument for extending bourdieusian notions of capital beyond the arts",
+        "description": "",
+        "metadata_source_url": "https://doi.org/10.1002/tea.21227",
+        "creation_reviewed": false,
+        "creation_review_note": "",
+        "attributes": [
+          {
+            "property": "P31",
+            "datatype": "wikibase-item",
+            "value": "",
+            "source_url": "https://doi.org/10.1002/tea.21227"
+          },
+          {
+            "property": "P1476",
+            "datatype": "monolingualtext",
+            "value": {
+              "text": "“Science capital”: A conceptual, methodological, and empirical argument for extending bourdieusian notions of capital beyond the arts",
+              "language": "en"
+            },
+            "source_url": "https://doi.org/10.1002/tea.21227"
+          },
+          {
+            "property": "P577",
+            "datatype": "time",
+            "value": "2015-01-01",
+            "precision": 9,
+            "source_url": "https://doi.org/10.1002/tea.21227"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Louise Archer",
+            "ordinal": 1,
+            "source_url": "https://doi.org/10.1002/tea.21227"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Emily Dawson",
+            "ordinal": 2,
+            "source_url": "https://doi.org/10.1002/tea.21227"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Jennifer DeWitt",
+            "ordinal": 3,
+            "source_url": "https://doi.org/10.1002/tea.21227"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Amy Seakins",
+            "ordinal": 4,
+            "source_url": "https://doi.org/10.1002/tea.21227"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Billy Wong",
+            "ordinal": 5,
+            "source_url": "https://doi.org/10.1002/tea.21227"
+          },
+          {
+            "property": "P478",
+            "datatype": "string",
+            "value": "52",
+            "source_url": "https://doi.org/10.1002/tea.21227"
+          },
+          {
+            "property": "P433",
+            "datatype": "string",
+            "value": "7",
+            "source_url": "https://doi.org/10.1002/tea.21227"
+          },
+          {
+            "property": "P304",
+            "datatype": "string",
+            "value": "922-948",
+            "source_url": "https://doi.org/10.1002/tea.21227"
+          }
+        ],
+        "unmapped_metadata": {
+          "journal_name": "Journal of Research in Science Teaching",
+          "alternative_identifier": "",
+          "url": "https://doi.org/10.1002/tea.21227"
+        }
+      },
+      "replication": {
+        "work_key": "10.1080/02671522.2019.1678062",
+        "qid": "",
+        "doi": "10.1080/02671522.2019.1678062",
+        "title": "Who has high science capital? An exploration of emerging patterns of science capital among students aged 17/18 in England",
+        "description": "scholarly article first published in 2019",
+        "metadata_source_url": "https://api.crossref.org/works/10.1080%2F02671522.2019.1678062",
+        "creation_reviewed": true,
+        "creation_review_note": "No exact DOI match, no exact title search candidate, and no wbsearchentities candidate on 11 November 2026; metadata verified at https://api.crossref.org/works/10.1080%2F02671522.2019.1678062. Operator must review the item before save.",
+        "attributes": [
+          {
+            "property": "P31",
+            "datatype": "wikibase-item",
+            "value": "Q13442814",
+            "source_url": "https://api.crossref.org/works/10.1080%2F02671522.2019.1678062"
+          },
+          {
+            "property": "P1476",
+            "datatype": "monolingualtext",
+            "value": {
+              "text": "Who has high science capital? An exploration of emerging patterns of science capital among students aged 17/18 in England",
+              "language": "en"
+            },
+            "source_url": "https://api.crossref.org/works/10.1080%2F02671522.2019.1678062"
+          },
+          {
+            "property": "P577",
+            "datatype": "time",
+            "value": "2019-01-01",
+            "source_url": "https://api.crossref.org/works/10.1080%2F02671522.2019.1678062",
+            "precision": 9
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Julie Moote",
+            "source_url": "https://api.crossref.org/works/10.1080%2F02671522.2019.1678062",
+            "ordinal": 1
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Louise Archer",
+            "source_url": "https://api.crossref.org/works/10.1080%2F02671522.2019.1678062",
+            "ordinal": 2
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Jennifer DeWitt",
+            "source_url": "https://api.crossref.org/works/10.1080%2F02671522.2019.1678062",
+            "ordinal": 3
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Emily MacLeod",
+            "source_url": "https://api.crossref.org/works/10.1080%2F02671522.2019.1678062",
+            "ordinal": 4
+          },
+          {
+            "property": "P478",
+            "datatype": "string",
+            "value": "36",
+            "source_url": "https://api.crossref.org/works/10.1080%2F02671522.2019.1678062"
+          },
+          {
+            "property": "P433",
+            "datatype": "string",
+            "value": "4",
+            "source_url": "https://api.crossref.org/works/10.1080%2F02671522.2019.1678062"
+          },
+          {
+            "property": "P304",
+            "datatype": "string",
+            "value": "402-422",
+            "source_url": "https://api.crossref.org/works/10.1080%2F02671522.2019.1678062"
+          },
+          {
+            "property": "P1433",
+            "datatype": "wikibase-item",
+            "value": "Q15754530",
+            "source_url": "https://api.crossref.org/works/10.1080%2F02671522.2019.1678062"
+          }
+        ],
+        "unmapped_metadata": {
+          "journal_name": "Research Papers in Education",
+          "alternative_identifier": "",
+          "url": ""
+        }
+      }
+    },
+    {
+      "record_id": "FLORA-000007",
+      "csv_data_row": 7,
+      "metadata_reviewed": true,
+      "verified_by": "Codex: registry metadata and Wikidata reconciliation; operator confirms each save",
+      "verified_at": "2026-11-11",
+      "retrieved": "2026-11-11",
+      "review_note": "Bibliographic metadata checked against DOI registration records. Original/replication roles from CSV select works only; no outcome assertion imported.",
+      "original": {
+        "work_key": "10.1037/H0093718",
+        "qid": "Q30048314",
+        "doi": "10.1037/h0093718",
+        "title": "Studies of independence and conformity: I. A minority of one against a unanimous majority.",
+        "description": "",
+        "metadata_source_url": "https://doi.org/10.1037/h0093718",
+        "creation_reviewed": false,
+        "creation_review_note": "",
+        "attributes": [
+          {
+            "property": "P31",
+            "datatype": "wikibase-item",
+            "value": "",
+            "source_url": "https://doi.org/10.1037/h0093718"
+          },
+          {
+            "property": "P1476",
+            "datatype": "monolingualtext",
+            "value": {
+              "text": "Studies of independence and conformity: I. A minority of one against a unanimous majority.",
+              "language": "en"
+            },
+            "source_url": "https://doi.org/10.1037/h0093718"
+          },
+          {
+            "property": "P577",
+            "datatype": "time",
+            "value": "1956-01-01",
+            "precision": 9,
+            "source_url": "https://doi.org/10.1037/h0093718"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Solomon E. Asch",
+            "ordinal": 1,
+            "source_url": "https://doi.org/10.1037/h0093718"
+          },
+          {
+            "property": "P478",
+            "datatype": "string",
+            "value": "70",
+            "source_url": "https://doi.org/10.1037/h0093718"
+          },
+          {
+            "property": "P433",
+            "datatype": "string",
+            "value": "9",
+            "source_url": "https://doi.org/10.1037/h0093718"
+          },
+          {
+            "property": "P304",
+            "datatype": "string",
+            "value": "1-70",
+            "source_url": "https://doi.org/10.1037/h0093718"
+          }
+        ],
+        "unmapped_metadata": {
+          "journal_name": "Psychological Monographs: General and Applied",
+          "alternative_identifier": "",
+          "url": "https://doi.org/10.1037/h0093718"
+        }
+      },
+      "replication": {
+        "work_key": "10.1371/JOURNAL.PONE.0294325",
+        "qid": "",
+        "doi": "10.1371/journal.pone.0294325",
+        "title": "The power of social influence: A replication and extension of the Asch experiment",
+        "description": "scholarly article first published in 2023",
+        "metadata_source_url": "https://api.crossref.org/works/10.1371%2FJOURNAL.PONE.0294325",
+        "creation_reviewed": true,
+        "creation_review_note": "No exact DOI match, no exact title search candidate, and no wbsearchentities candidate on 11 November 2026; metadata verified at https://api.crossref.org/works/10.1371%2FJOURNAL.PONE.0294325. Operator must review the item before save.",
+        "attributes": [
+          {
+            "property": "P31",
+            "datatype": "wikibase-item",
+            "value": "Q13442814",
+            "source_url": "https://api.crossref.org/works/10.1371%2FJOURNAL.PONE.0294325"
+          },
+          {
+            "property": "P1476",
+            "datatype": "monolingualtext",
+            "value": {
+              "text": "The power of social influence: A replication and extension of the Asch experiment",
+              "language": "en"
+            },
+            "source_url": "https://api.crossref.org/works/10.1371%2FJOURNAL.PONE.0294325"
+          },
+          {
+            "property": "P577",
+            "datatype": "time",
+            "value": "2023-01-01",
+            "source_url": "https://api.crossref.org/works/10.1371%2FJOURNAL.PONE.0294325",
+            "precision": 9
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Axel Franzen",
+            "source_url": "https://api.crossref.org/works/10.1371%2FJOURNAL.PONE.0294325",
+            "ordinal": 1
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Sebastian Mader",
+            "source_url": "https://api.crossref.org/works/10.1371%2FJOURNAL.PONE.0294325",
+            "ordinal": 2
+          },
+          {
+            "property": "P478",
+            "datatype": "string",
+            "value": "18",
+            "source_url": "https://api.crossref.org/works/10.1371%2FJOURNAL.PONE.0294325"
+          },
+          {
+            "property": "P433",
+            "datatype": "string",
+            "value": "11",
+            "source_url": "https://api.crossref.org/works/10.1371%2FJOURNAL.PONE.0294325"
+          },
+          {
+            "property": "P304",
+            "datatype": "string",
+            "value": "e0294325",
+            "source_url": "https://api.crossref.org/works/10.1371%2FJOURNAL.PONE.0294325"
+          },
+          {
+            "property": "P1433",
+            "datatype": "wikibase-item",
+            "value": "Q564954",
+            "source_url": "https://api.crossref.org/works/10.1371%2FJOURNAL.PONE.0294325"
+          }
+        ],
+        "unmapped_metadata": {
+          "journal_name": "PLOS ONE",
+          "alternative_identifier": "",
+          "url": ""
+        }
+      }
+    },
+    {
+      "record_id": "FLORA-000008",
+      "csv_data_row": 8,
+      "metadata_reviewed": true,
+      "verified_by": "Codex: registry metadata and Wikidata reconciliation; operator confirms each save",
+      "verified_at": "2026-11-11",
+      "retrieved": "2026-11-11",
+      "review_note": "Bibliographic metadata checked against DOI registration records. Original/replication roles from CSV select works only; no outcome assertion imported.",
+      "original": {
+        "work_key": "10.1037/H0093718",
+        "qid": "Q30048314",
+        "doi": "10.1037/h0093718",
+        "title": "Studies of independence and conformity: I. A minority of one against a unanimous majority.",
+        "description": "",
+        "metadata_source_url": "https://doi.org/10.1037/h0093718",
+        "creation_reviewed": false,
+        "creation_review_note": "",
+        "attributes": [
+          {
+            "property": "P31",
+            "datatype": "wikibase-item",
+            "value": "",
+            "source_url": "https://doi.org/10.1037/h0093718"
+          },
+          {
+            "property": "P1476",
+            "datatype": "monolingualtext",
+            "value": {
+              "text": "Studies of independence and conformity: I. A minority of one against a unanimous majority.",
+              "language": "en"
+            },
+            "source_url": "https://doi.org/10.1037/h0093718"
+          },
+          {
+            "property": "P577",
+            "datatype": "time",
+            "value": "1956-01-01",
+            "precision": 9,
+            "source_url": "https://doi.org/10.1037/h0093718"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Solomon E. Asch",
+            "ordinal": 1,
+            "source_url": "https://doi.org/10.1037/h0093718"
+          },
+          {
+            "property": "P478",
+            "datatype": "string",
+            "value": "70",
+            "source_url": "https://doi.org/10.1037/h0093718"
+          },
+          {
+            "property": "P433",
+            "datatype": "string",
+            "value": "9",
+            "source_url": "https://doi.org/10.1037/h0093718"
+          },
+          {
+            "property": "P304",
+            "datatype": "string",
+            "value": "1-70",
+            "source_url": "https://doi.org/10.1037/h0093718"
+          }
+        ],
+        "unmapped_metadata": {
+          "journal_name": "Psychological Monographs: General and Applied",
+          "alternative_identifier": "",
+          "url": "https://doi.org/10.1037/h0093718"
+        }
+      },
+      "replication": {
+        "work_key": "10.31820/PT.28.3.7",
+        "qid": "",
+        "doi": "10.31820/pt.28.3.7",
+        "title": "Replication of the \"Asch effect\" in Bosnia and Herzegovin",
+        "description": "scholarly article first published in 2019",
+        "metadata_source_url": "https://api.crossref.org/works/10.31820%2FPT.28.3.7",
+        "creation_reviewed": true,
+        "creation_review_note": "No exact DOI match, no exact title search candidate, and no wbsearchentities candidate on 11 November 2026; metadata verified at https://api.crossref.org/works/10.31820%2FPT.28.3.7. Operator must review the item before save.",
+        "attributes": [
+          {
+            "property": "P31",
+            "datatype": "wikibase-item",
+            "value": "Q13442814",
+            "source_url": "https://api.crossref.org/works/10.31820%2FPT.28.3.7"
+          },
+          {
+            "property": "P1476",
+            "datatype": "monolingualtext",
+            "value": {
+              "text": "Replication of the \"Asch effect\" in Bosnia and Herzegovin",
+              "language": "en"
+            },
+            "source_url": "https://api.crossref.org/works/10.31820%2FPT.28.3.7"
+          },
+          {
+            "property": "P577",
+            "datatype": "time",
+            "value": "2019-01-01",
+            "source_url": "https://api.crossref.org/works/10.31820%2FPT.28.3.7",
+            "precision": 9
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Muamer Ušto",
+            "source_url": "https://api.crossref.org/works/10.31820%2FPT.28.3.7",
+            "ordinal": 1
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Saša Drače",
+            "source_url": "https://api.crossref.org/works/10.31820%2FPT.28.3.7",
+            "ordinal": 2
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Nina Hadžiahmetović",
+            "source_url": "https://api.crossref.org/works/10.31820%2FPT.28.3.7",
+            "ordinal": 3
+          },
+          {
+            "property": "P478",
+            "datatype": "string",
+            "value": "28",
+            "source_url": "https://api.crossref.org/works/10.31820%2FPT.28.3.7"
+          },
+          {
+            "property": "P433",
+            "datatype": "string",
+            "value": "3",
+            "source_url": "https://api.crossref.org/works/10.31820%2FPT.28.3.7"
+          },
+          {
+            "property": "P304",
+            "datatype": "string",
+            "value": "589-599",
+            "source_url": "https://api.crossref.org/works/10.31820%2FPT.28.3.7"
+          },
+          {
+            "property": "P1433",
+            "datatype": "wikibase-item",
+            "value": "Q50515422",
+            "source_url": "https://api.crossref.org/works/10.31820%2FPT.28.3.7"
+          }
+        ],
+        "unmapped_metadata": {
+          "journal_name": "Psihologijske teme",
+          "alternative_identifier": "",
+          "url": ""
+        }
+      }
+    },
+    {
+      "record_id": "FLORA-000009",
+      "csv_data_row": 9,
+      "metadata_reviewed": true,
+      "verified_by": "Codex: registry metadata and Wikidata reconciliation; operator confirms each save",
+      "verified_at": "2026-11-11",
+      "retrieved": "2026-11-11",
+      "review_note": "Bibliographic metadata checked against DOI registration records. Original/replication roles from CSV select works only; no outcome assertion imported.",
+      "original": {
+        "work_key": "10.1177/0022219409335218",
+        "qid": "Q83738097",
+        "doi": "10.1177/0022219409335218",
+        "title": "Emergent Literacy Intervention for Prekindergarteners at Risk for Reading Failure",
+        "description": "",
+        "metadata_source_url": "https://doi.org/10.1177/0022219409335218",
+        "creation_reviewed": false,
+        "creation_review_note": "",
+        "attributes": [
+          {
+            "property": "P31",
+            "datatype": "wikibase-item",
+            "value": "",
+            "source_url": "https://doi.org/10.1177/0022219409335218"
+          },
+          {
+            "property": "P1476",
+            "datatype": "monolingualtext",
+            "value": {
+              "text": "Emergent Literacy Intervention for Prekindergarteners at Risk for Reading Failure",
+              "language": "en"
+            },
+            "source_url": "https://doi.org/10.1177/0022219409335218"
+          },
+          {
+            "property": "P577",
+            "datatype": "time",
+            "value": "2009-01-01",
+            "precision": 9,
+            "source_url": "https://doi.org/10.1177/0022219409335218"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Laura L. Bailet",
+            "ordinal": 1,
+            "source_url": "https://doi.org/10.1177/0022219409335218"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Karla K. Repper",
+            "ordinal": 2,
+            "source_url": "https://doi.org/10.1177/0022219409335218"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Shayne B. Piasta",
+            "ordinal": 3,
+            "source_url": "https://doi.org/10.1177/0022219409335218"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Suzanne P. Murphy",
+            "ordinal": 4,
+            "source_url": "https://doi.org/10.1177/0022219409335218"
+          },
+          {
+            "property": "P478",
+            "datatype": "string",
+            "value": "42",
+            "source_url": "https://doi.org/10.1177/0022219409335218"
+          },
+          {
+            "property": "P433",
+            "datatype": "string",
+            "value": "4",
+            "source_url": "https://doi.org/10.1177/0022219409335218"
+          },
+          {
+            "property": "P304",
+            "datatype": "string",
+            "value": "336-355",
+            "source_url": "https://doi.org/10.1177/0022219409335218"
+          }
+        ],
+        "unmapped_metadata": {
+          "journal_name": "Journal of Learning Disabilities",
+          "alternative_identifier": "",
+          "url": "https://doi.org/10.1177/0022219409335218"
+        }
+      },
+      "replication": {
+        "work_key": "10.1080/10409289.2018.1475202",
+        "qid": "",
+        "doi": "10.1080/10409289.2018.1475202",
+        "title": "Efficacy of the Nemours BrightStart! Early Literacy Program: Treatment Outcomes From a Randomized Trial With At-Risk Prekindergartners",
+        "description": "scholarly article first published in 2018",
+        "metadata_source_url": "https://api.crossref.org/works/10.1080%2F10409289.2018.1475202",
+        "creation_reviewed": true,
+        "creation_review_note": "No exact DOI match, no exact title search candidate, and no wbsearchentities candidate on 11 November 2026; metadata verified at https://api.crossref.org/works/10.1080%2F10409289.2018.1475202. Operator must review the item before save.",
+        "attributes": [
+          {
+            "property": "P31",
+            "datatype": "wikibase-item",
+            "value": "Q13442814",
+            "source_url": "https://api.crossref.org/works/10.1080%2F10409289.2018.1475202"
+          },
+          {
+            "property": "P1476",
+            "datatype": "monolingualtext",
+            "value": {
+              "text": "Efficacy of the Nemours BrightStart! Early Literacy Program: Treatment Outcomes From a Randomized Trial With At-Risk Prekindergartners",
+              "language": "en"
+            },
+            "source_url": "https://api.crossref.org/works/10.1080%2F10409289.2018.1475202"
+          },
+          {
+            "property": "P577",
+            "datatype": "time",
+            "value": "2018-01-01",
+            "source_url": "https://api.crossref.org/works/10.1080%2F10409289.2018.1475202",
+            "precision": 9
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Cynthia M. Zettler-Greeley",
+            "source_url": "https://api.crossref.org/works/10.1080%2F10409289.2018.1475202",
+            "ordinal": 1
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Laura L. Bailet",
+            "source_url": "https://api.crossref.org/works/10.1080%2F10409289.2018.1475202",
+            "ordinal": 2
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Suzanne Murphy",
+            "source_url": "https://api.crossref.org/works/10.1080%2F10409289.2018.1475202",
+            "ordinal": 3
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Teri DeLucca",
+            "source_url": "https://api.crossref.org/works/10.1080%2F10409289.2018.1475202",
+            "ordinal": 4
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Lee Branum-Martin",
+            "source_url": "https://api.crossref.org/works/10.1080%2F10409289.2018.1475202",
+            "ordinal": 5
+          },
+          {
+            "property": "P478",
+            "datatype": "string",
+            "value": "29",
+            "source_url": "https://api.crossref.org/works/10.1080%2F10409289.2018.1475202"
+          },
+          {
+            "property": "P433",
+            "datatype": "string",
+            "value": "6",
+            "source_url": "https://api.crossref.org/works/10.1080%2F10409289.2018.1475202"
+          },
+          {
+            "property": "P304",
+            "datatype": "string",
+            "value": "873-892",
+            "source_url": "https://api.crossref.org/works/10.1080%2F10409289.2018.1475202"
+          },
+          {
+            "property": "P1433",
+            "datatype": "wikibase-item",
+            "value": "Q15767173",
+            "source_url": "https://api.crossref.org/works/10.1080%2F10409289.2018.1475202"
+          }
+        ],
+        "unmapped_metadata": {
+          "journal_name": "Early Education and Development",
+          "alternative_identifier": "",
+          "url": ""
+        }
+      }
+    },
+    {
+      "record_id": "FLORA-000010",
+      "csv_data_row": 10,
+      "metadata_reviewed": true,
+      "verified_by": "Codex: registry metadata and Wikidata reconciliation; operator confirms each save",
+      "verified_at": "2026-11-11",
+      "retrieved": "2026-11-11",
+      "review_note": "Bibliographic metadata checked against DOI registration records. Original/replication roles from CSV select works only; no outcome assertion imported.",
+      "original": {
+        "work_key": "10.1093/SCAN/NSN004",
+        "qid": "Q36913209",
+        "doi": "10.1093/scan/nsn004",
+        "title": "Oxytocin receptor ( OXTR ) and serotonin transporter ( 5-HTT ) genes associated with observed parenting",
+        "description": "",
+        "metadata_source_url": "https://doi.org/10.1093/scan/nsn004",
+        "creation_reviewed": false,
+        "creation_review_note": "",
+        "attributes": [
+          {
+            "property": "P31",
+            "datatype": "wikibase-item",
+            "value": "",
+            "source_url": "https://doi.org/10.1093/scan/nsn004"
+          },
+          {
+            "property": "P1476",
+            "datatype": "monolingualtext",
+            "value": {
+              "text": "Oxytocin receptor ( OXTR ) and serotonin transporter ( 5-HTT ) genes associated with observed parenting",
+              "language": "en"
+            },
+            "source_url": "https://doi.org/10.1093/scan/nsn004"
+          },
+          {
+            "property": "P577",
+            "datatype": "time",
+            "value": "2008-01-01",
+            "precision": 9,
+            "source_url": "https://doi.org/10.1093/scan/nsn004"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Marian J. Bakermans-Kranenburg",
+            "ordinal": 1,
+            "source_url": "https://doi.org/10.1093/scan/nsn004"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Marinus H. van IJzendoorn",
+            "ordinal": 2,
+            "source_url": "https://doi.org/10.1093/scan/nsn004"
+          },
+          {
+            "property": "P478",
+            "datatype": "string",
+            "value": "3",
+            "source_url": "https://doi.org/10.1093/scan/nsn004"
+          },
+          {
+            "property": "P433",
+            "datatype": "string",
+            "value": "2",
+            "source_url": "https://doi.org/10.1093/scan/nsn004"
+          },
+          {
+            "property": "P304",
+            "datatype": "string",
+            "value": "128-134",
+            "source_url": "https://doi.org/10.1093/scan/nsn004"
+          }
+        ],
+        "unmapped_metadata": {
+          "journal_name": "Social Cognitive and Affective Neuroscience",
+          "alternative_identifier": "",
+          "url": "https://doi.org/10.1093/scan/nsn004"
+        }
+      },
+      "replication": {
+        "work_key": "10.1037/FAM0000034",
+        "qid": "Q35702724",
+        "doi": "10.1037/fam0000034",
+        "title": "A constructive replication of the association between the oxytocin receptor genotype and parenting.",
+        "description": "",
+        "metadata_source_url": "https://doi.org/10.1037/fam0000034",
+        "creation_reviewed": false,
+        "creation_review_note": "",
+        "attributes": [
+          {
+            "property": "P31",
+            "datatype": "wikibase-item",
+            "value": "",
+            "source_url": "https://doi.org/10.1037/fam0000034"
+          },
+          {
+            "property": "P1476",
+            "datatype": "monolingualtext",
+            "value": {
+              "text": "A constructive replication of the association between the oxytocin receptor genotype and parenting.",
+              "language": "en"
+            },
+            "source_url": "https://doi.org/10.1037/fam0000034"
+          },
+          {
+            "property": "P577",
+            "datatype": "time",
+            "value": "2015-01-01",
+            "precision": 9,
+            "source_url": "https://doi.org/10.1037/fam0000034"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Ashlea M. Klahr",
+            "ordinal": 1,
+            "source_url": "https://doi.org/10.1037/fam0000034"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "Kelly Klump",
+            "ordinal": 2,
+            "source_url": "https://doi.org/10.1037/fam0000034"
+          },
+          {
+            "property": "P2093",
+            "datatype": "string",
+            "value": "S. Alexandra Burt",
+            "ordinal": 3,
+            "source_url": "https://doi.org/10.1037/fam0000034"
+          },
+          {
+            "property": "P478",
+            "datatype": "string",
+            "value": "29",
+            "source_url": "https://doi.org/10.1037/fam0000034"
+          },
+          {
+            "property": "P433",
+            "datatype": "string",
+            "value": "1",
+            "source_url": "https://doi.org/10.1037/fam0000034"
+          },
+          {
+            "property": "P304",
+            "datatype": "string",
+            "value": "91-99",
+            "source_url": "https://doi.org/10.1037/fam0000034"
+          }
+        ],
+        "unmapped_metadata": {
+          "journal_name": "Journal of Family Psychology",
+          "alternative_identifier": "",
+          "url": ""
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "environment": "test",
+  "properties": {
+    "relation": "P9001",
+    "goal": "P9002",
+    "reference": "P9003",
+    "nanopublication": "P9004",
+    "retrieved": "P9005",
+    "doi": "P9006"
+  },
+  "expected_labels": {
+    "relation": "SYNTHETIC relation",
+    "goal": "SYNTHETIC goal",
+    "reference": "SYNTHETIC reference",
+    "nanopublication": "SYNTHETIC nanopublication",
+    "retrieved": "SYNTHETIC retrieved",
+    "doi": "SYNTHETIC doi"
+  }
+}

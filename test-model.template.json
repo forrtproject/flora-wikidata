@@ -1,0 +1,19 @@
+{
+  "environment": "test",
+  "properties": {
+    "relation": "REPLACE",
+    "goal": "REPLACE",
+    "reference": "REPLACE",
+    "nanopublication": "REPLACE",
+    "retrieved": "REPLACE",
+    "doi": "REPLACE"
+  },
+  "expected_labels": {
+    "relation": "REPLACE",
+    "goal": "REPLACE",
+    "reference": "REPLACE",
+    "nanopublication": "REPLACE",
+    "retrieved": "REPLACE",
+    "doi": "REPLACE"
+  }
+}

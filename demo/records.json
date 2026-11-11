@@ -1,0 +1,262 @@
+{
+  "schema_version": 1,
+  "environment": "test",
+  "dataset": {
+    "name": "SYNTHETIC OFFLINE DEMO",
+    "version": "fixture-v1",
+    "url": "https://forrt.org/flora/#synthetic-offline-demo",
+    "cc0_compatible": true
+  },
+  "records": [
+    {
+      "record_id": "synthetic-01",
+      "replication": {
+        "qid": "Q900000001",
+        "doi": "",
+        "title": "SYNTHETIC replication 1"
+      },
+      "original": {
+        "qid": "Q910000001",
+        "doi": "",
+        "title": "SYNTHETIC original 1"
+      },
+      "cito": {
+        "qid": "Q920000001",
+        "label": "SYNTHETIC qualifies"
+      },
+      "reference_url": "https://forrt.org/flora/#offline-demo-nanopub-1",
+      "evidence_url": "https://forrt.org/flora/#offline-demo-evidence-1",
+      "retrieved": "2026-11-11",
+      "verified_at": "2026-11-11",
+      "verified_by": "SYNTHETIC FIXTURE - NOT A REAL REVIEW",
+      "review_note": "SYNTHETIC data solely for offline software testing.",
+      "model_review_note": "SYNTHETIC model solely for offline software testing.",
+      "whole_relation_appropriate": true
+    },
+    {
+      "record_id": "synthetic-02",
+      "replication": {
+        "qid": "Q900000002",
+        "doi": "",
+        "title": "SYNTHETIC replication 2"
+      },
+      "original": {
+        "qid": "Q910000002",
+        "doi": "",
+        "title": "SYNTHETIC original 2"
+      },
+      "cito": {
+        "qid": "Q920000001",
+        "label": "SYNTHETIC qualifies"
+      },
+      "reference_url": "https://forrt.org/flora/#offline-demo-nanopub-2",
+      "evidence_url": "https://forrt.org/flora/#offline-demo-evidence-2",
+      "retrieved": "2026-11-11",
+      "verified_at": "2026-11-11",
+      "verified_by": "SYNTHETIC FIXTURE - NOT A REAL REVIEW",
+      "review_note": "SYNTHETIC data solely for offline software testing.",
+      "model_review_note": "SYNTHETIC model solely for offline software testing.",
+      "whole_relation_appropriate": true
+    },
+    {
+      "record_id": "synthetic-03",
+      "replication": {
+        "qid": "Q900000003",
+        "doi": "",
+        "title": "SYNTHETIC replication 3"
+      },
+      "original": {
+        "qid": "Q910000003",
+        "doi": "",
+        "title": "SYNTHETIC original 3"
+      },
+      "cito": {
+        "qid": "Q920000001",
+        "label": "SYNTHETIC qualifies"
+      },
+      "reference_url": "https://forrt.org/flora/#offline-demo-nanopub-3",
+      "evidence_url": "https://forrt.org/flora/#offline-demo-evidence-3",
+      "retrieved": "2026-11-11",
+      "verified_at": "2026-11-11",
+      "verified_by": "SYNTHETIC FIXTURE - NOT A REAL REVIEW",
+      "review_note": "SYNTHETIC data solely for offline software testing.",
+      "model_review_note": "SYNTHETIC model solely for offline software testing.",
+      "whole_relation_appropriate": true
+    },
+    {
+      "record_id": "synthetic-04",
+      "replication": {
+        "qid": "Q900000004",
+        "doi": "",
+        "title": "SYNTHETIC replication 4"
+      },
+      "original": {
+        "qid": "Q910000004",
+        "doi": "",
+        "title": "SYNTHETIC original 4"
+      },
+      "cito": {
+        "qid": "Q920000001",
+        "label": "SYNTHETIC qualifies"
+      },
+      "reference_url": "https://forrt.org/flora/#offline-demo-nanopub-4",
+      "evidence_url": "https://forrt.org/flora/#offline-demo-evidence-4",
+      "retrieved": "2026-11-11",
+      "verified_at": "2026-11-11",
+      "verified_by": "SYNTHETIC FIXTURE - NOT A REAL REVIEW",
+      "review_note": "SYNTHETIC data solely for offline software testing.",
+      "model_review_note": "SYNTHETIC model solely for offline software testing.",
+      "whole_relation_appropriate": true
+    },
+    {
+      "record_id": "synthetic-05",
+      "replication": {
+        "qid": "Q900000005",
+        "doi": "",
+        "title": "SYNTHETIC replication 5"
+      },
+      "original": {
+        "qid": "Q910000005",
+        "doi": "",
+        "title": "SYNTHETIC original 5"
+      },
+      "cito": {
+        "qid": "Q920000001",
+        "label": "SYNTHETIC qualifies"
+      },
+      "reference_url": "https://forrt.org/flora/#offline-demo-nanopub-5",
+      "evidence_url": "https://forrt.org/flora/#offline-demo-evidence-5",
+      "retrieved": "2026-11-11",
+      "verified_at": "2026-11-11",
+      "verified_by": "SYNTHETIC FIXTURE - NOT A REAL REVIEW",
+      "review_note": "SYNTHETIC data solely for offline software testing.",
+      "model_review_note": "SYNTHETIC model solely for offline software testing.",
+      "whole_relation_appropriate": true
+    },
+    {
+      "record_id": "synthetic-06",
+      "replication": {
+        "qid": "Q900000006",
+        "doi": "",
+        "title": "SYNTHETIC replication 6"
+      },
+      "original": {
+        "qid": "Q910000006",
+        "doi": "",
+        "title": "SYNTHETIC original 6"
+      },
+      "cito": {
+        "qid": "Q920000001",
+        "label": "SYNTHETIC qualifies"
+      },
+      "reference_url": "https://forrt.org/flora/#offline-demo-nanopub-6",
+      "evidence_url": "https://forrt.org/flora/#offline-demo-evidence-6",
+      "retrieved": "2026-11-11",
+      "verified_at": "2026-11-11",
+      "verified_by": "SYNTHETIC FIXTURE - NOT A REAL REVIEW",
+      "review_note": "SYNTHETIC data solely for offline software testing.",
+      "model_review_note": "SYNTHETIC model solely for offline software testing.",
+      "whole_relation_appropriate": true
+    },
+    {
+      "record_id": "synthetic-07",
+      "replication": {
+        "qid": "Q900000007",
+        "doi": "",
+        "title": "SYNTHETIC replication 7"
+      },
+      "original": {
+        "qid": "Q910000007",
+        "doi": "",
+        "title": "SYNTHETIC original 7"
+      },
+      "cito": {
+        "qid": "Q920000001",
+        "label": "SYNTHETIC qualifies"
+      },
+      "reference_url": "https://forrt.org/flora/#offline-demo-nanopub-7",
+      "evidence_url": "https://forrt.org/flora/#offline-demo-evidence-7",
+      "retrieved": "2026-11-11",
+      "verified_at": "2026-11-11",
+      "verified_by": "SYNTHETIC FIXTURE - NOT A REAL REVIEW",
+      "review_note": "SYNTHETIC data solely for offline software testing.",
+      "model_review_note": "SYNTHETIC model solely for offline software testing.",
+      "whole_relation_appropriate": true
+    },
+    {
+      "record_id": "synthetic-08",
+      "replication": {
+        "qid": "Q900000008",
+        "doi": "",
+        "title": "SYNTHETIC replication 8"
+      },
+      "original": {
+        "qid": "Q910000008",
+        "doi": "",
+        "title": "SYNTHETIC original 8"
+      },
+      "cito": {
+        "qid": "Q920000001",
+        "label": "SYNTHETIC qualifies"
+      },
+      "reference_url": "https://forrt.org/flora/#offline-demo-nanopub-8",
+      "evidence_url": "https://forrt.org/flora/#offline-demo-evidence-8",
+      "retrieved": "2026-11-11",
+      "verified_at": "2026-11-11",
+      "verified_by": "SYNTHETIC FIXTURE - NOT A REAL REVIEW",
+      "review_note": "SYNTHETIC data solely for offline software testing.",
+      "model_review_note": "SYNTHETIC model solely for offline software testing.",
+      "whole_relation_appropriate": true
+    },
+    {
+      "record_id": "synthetic-09",
+      "replication": {
+        "qid": "Q900000009",
+        "doi": "",
+        "title": "SYNTHETIC replication 9"
+      },
+      "original": {
+        "qid": "Q910000009",
+        "doi": "",
+        "title": "SYNTHETIC original 9"
+      },
+      "cito": {
+        "qid": "Q920000001",
+        "label": "SYNTHETIC qualifies"
+      },
+      "reference_url": "https://forrt.org/flora/#offline-demo-nanopub-9",
+      "evidence_url": "https://forrt.org/flora/#offline-demo-evidence-9",
+      "retrieved": "2026-11-11",
+      "verified_at": "2026-11-11",
+      "verified_by": "SYNTHETIC FIXTURE - NOT A REAL REVIEW",
+      "review_note": "SYNTHETIC data solely for offline software testing.",
+      "model_review_note": "SYNTHETIC model solely for offline software testing.",
+      "whole_relation_appropriate": true
+    },
+    {
+      "record_id": "synthetic-10",
+      "replication": {
+        "qid": "Q900000010",
+        "doi": "",
+        "title": "SYNTHETIC replication 10"
+      },
+      "original": {
+        "qid": "Q910000010",
+        "doi": "",
+        "title": "SYNTHETIC original 10"
+      },
+      "cito": {
+        "qid": "Q920000001",
+        "label": "SYNTHETIC qualifies"
+      },
+      "reference_url": "https://forrt.org/flora/#offline-demo-nanopub-10",
+      "evidence_url": "https://forrt.org/flora/#offline-demo-evidence-10",
+      "retrieved": "2026-11-11",
+      "verified_at": "2026-11-11",
+      "verified_by": "SYNTHETIC FIXTURE - NOT A REAL REVIEW",
+      "review_note": "SYNTHETIC data solely for offline software testing.",
+      "model_review_note": "SYNTHETIC model solely for offline software testing.",
+      "whole_relation_appropriate": true
+    }
+  ]
+}

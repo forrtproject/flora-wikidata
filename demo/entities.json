@@ -1,0 +1,307 @@
+{
+  "entities": {
+    "P9001": {
+      "id": "P9001",
+      "lastrevid": 100,
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "SYNTHETIC relation"
+        }
+      },
+      "claims": {},
+      "datatype": "wikibase-item"
+    },
+    "P9002": {
+      "id": "P9002",
+      "lastrevid": 100,
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "SYNTHETIC goal"
+        }
+      },
+      "claims": {},
+      "datatype": "wikibase-item"
+    },
+    "P9003": {
+      "id": "P9003",
+      "lastrevid": 100,
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "SYNTHETIC reference"
+        }
+      },
+      "claims": {},
+      "datatype": "url"
+    },
+    "P9004": {
+      "id": "P9004",
+      "lastrevid": 100,
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "SYNTHETIC nanopublication"
+        }
+      },
+      "claims": {},
+      "datatype": "url"
+    },
+    "P9005": {
+      "id": "P9005",
+      "lastrevid": 100,
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "SYNTHETIC retrieved"
+        }
+      },
+      "claims": {},
+      "datatype": "time"
+    },
+    "P9006": {
+      "id": "P9006",
+      "lastrevid": 100,
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "SYNTHETIC doi"
+        }
+      },
+      "claims": {},
+      "datatype": "external-id"
+    },
+    "Q900000001": {
+      "id": "Q900000001",
+      "lastrevid": 100,
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "SYNTHETIC replication 1"
+        }
+      },
+      "claims": {}
+    },
+    "Q910000001": {
+      "id": "Q910000001",
+      "lastrevid": 100,
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "SYNTHETIC original 1"
+        }
+      },
+      "claims": {}
+    },
+    "Q920000001": {
+      "id": "Q920000001",
+      "lastrevid": 100,
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "SYNTHETIC qualifies"
+        }
+      },
+      "claims": {}
+    },
+    "Q900000002": {
+      "id": "Q900000002",
+      "lastrevid": 100,
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "SYNTHETIC replication 2"
+        }
+      },
+      "claims": {}
+    },
+    "Q910000002": {
+      "id": "Q910000002",
+      "lastrevid": 100,
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "SYNTHETIC original 2"
+        }
+      },
+      "claims": {}
+    },
+    "Q900000003": {
+      "id": "Q900000003",
+      "lastrevid": 100,
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "SYNTHETIC replication 3"
+        }
+      },
+      "claims": {}
+    },
+    "Q910000003": {
+      "id": "Q910000003",
+      "lastrevid": 100,
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "SYNTHETIC original 3"
+        }
+      },
+      "claims": {}
+    },
+    "Q900000004": {
+      "id": "Q900000004",
+      "lastrevid": 100,
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "SYNTHETIC replication 4"
+        }
+      },
+      "claims": {}
+    },
+    "Q910000004": {
+      "id": "Q910000004",
+      "lastrevid": 100,
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "SYNTHETIC original 4"
+        }
+      },
+      "claims": {}
+    },
+    "Q900000005": {
+      "id": "Q900000005",
+      "lastrevid": 100,
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "SYNTHETIC replication 5"
+        }
+      },
+      "claims": {}
+    },
+    "Q910000005": {
+      "id": "Q910000005",
+      "lastrevid": 100,
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "SYNTHETIC original 5"
+        }
+      },
+      "claims": {}
+    },
+    "Q900000006": {
+      "id": "Q900000006",
+      "lastrevid": 100,
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "SYNTHETIC replication 6"
+        }
+      },
+      "claims": {}
+    },
+    "Q910000006": {
+      "id": "Q910000006",
+      "lastrevid": 100,
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "SYNTHETIC original 6"
+        }
+      },
+      "claims": {}
+    },
+    "Q900000007": {
+      "id": "Q900000007",
+      "lastrevid": 100,
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "SYNTHETIC replication 7"
+        }
+      },
+      "claims": {}
+    },
+    "Q910000007": {
+      "id": "Q910000007",
+      "lastrevid": 100,
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "SYNTHETIC original 7"
+        }
+      },
+      "claims": {}
+    },
+    "Q900000008": {
+      "id": "Q900000008",
+      "lastrevid": 100,
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "SYNTHETIC replication 8"
+        }
+      },
+      "claims": {}
+    },
+    "Q910000008": {
+      "id": "Q910000008",
+      "lastrevid": 100,
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "SYNTHETIC original 8"
+        }
+      },
+      "claims": {}
+    },
+    "Q900000009": {
+      "id": "Q900000009",
+      "lastrevid": 100,
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "SYNTHETIC replication 9"
+        }
+      },
+      "claims": {}
+    },
+    "Q910000009": {
+      "id": "Q910000009",
+      "lastrevid": 100,
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "SYNTHETIC original 9"
+        }
+      },
+      "claims": {}
+    },
+    "Q900000010": {
+      "id": "Q900000010",
+      "lastrevid": 100,
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "SYNTHETIC replication 10"
+        }
+      },
+      "claims": {}
+    },
+    "Q910000010": {
+      "id": "Q910000010",
+      "lastrevid": 100,
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "SYNTHETIC original 10"
+        }
+      },
+      "claims": {}
+    }
+  }
+}

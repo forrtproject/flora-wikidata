@@ -1,0 +1,339 @@
+{
+  "checked_at": "2026-11-11T15:10:56.975570+00:00",
+  "mode": "read-only; no login; no writes",
+  "csv": "C:\\Users\\hamid\\Documents\\GitHub\\flora-validation\\output\\flora.csv",
+  "sha256": "5826464541891f83c594ccc295a0512cf20329373c3b90a2fafc56e0a97e807c",
+  "rows": [
+    {
+      "csv_row": 1,
+      "record_id": "FLORA-000001",
+      "original": "10.1016/0010-0285(72)90003-5",
+      "replication": "10.17605/OSF.IO/BU3GM"
+    },
+    {
+      "csv_row": 2,
+      "record_id": "FLORA-000002",
+      "original": "10.1037/H0080111",
+      "replication": "10.3758/S13423-014-0582-9"
+    },
+    {
+      "csv_row": 3,
+      "record_id": "FLORA-000003",
+      "original": "10.1093/HMG/DDP542",
+      "replication": "10.1136/JMG.2009.075911"
+    },
+    {
+      "csv_row": 4,
+      "record_id": "FLORA-000004",
+      "original": "10.1016/S2213-8587(18)30051-2",
+      "replication": "10.1007/S00125-021-05490-8"
+    },
+    {
+      "csv_row": 5,
+      "record_id": "FLORA-000005",
+      "original": "10.1080/01690960802164242",
+      "replication": "10.1007/S11145-018-9858-1"
+    },
+    {
+      "csv_row": 6,
+      "record_id": "FLORA-000006",
+      "original": "10.1002/TEA.21227",
+      "replication": "10.1080/02671522.2019.1678062"
+    },
+    {
+      "csv_row": 7,
+      "record_id": "FLORA-000007",
+      "original": "10.1037/H0093718",
+      "replication": "10.1371/JOURNAL.PONE.0294325"
+    },
+    {
+      "csv_row": 8,
+      "record_id": "FLORA-000008",
+      "original": "10.1037/H0093718",
+      "replication": "10.31820/PT.28.3.7"
+    },
+    {
+      "csv_row": 9,
+      "record_id": "FLORA-000009",
+      "original": "10.1177/0022219409335218",
+      "replication": "10.1080/10409289.2018.1475202"
+    },
+    {
+      "csv_row": 10,
+      "record_id": "FLORA-000010",
+      "original": "10.1093/SCAN/NSN004",
+      "replication": "10.1037/FAM0000034"
+    }
+  ],
+  "works": {
+    "10.1016/0010-0285(72)90003-5": {
+      "doi": "10.1016/0010-0285(72)90003-5",
+      "title": "Sentence memory: A constructive versus interpretive approach",
+      "exact_matches": [
+        {
+          "qid": "Q140220709",
+          "revision": 2506204403,
+          "label": "Sentence memory: A constructive versus interpretive approach"
+        }
+      ],
+      "title_candidates": [],
+      "status": "reuse_existing"
+    },
+    "10.17605/OSF.IO/BU3GM": {
+      "doi": "10.17605/OSF.IO/BU3GM",
+      "title": "Spontaneous construction of causally relevant spatial models: Bulgarian replication of the model-type effect",
+      "exact_matches": [],
+      "title_candidates": [],
+      "status": "no_exact_doi_match_review_before_creation"
+    },
+    "10.1037/H0080111": {
+      "doi": "10.1037/H0080111",
+      "title": "Against parafoveal semantic preprocessing during eye fixations in reading.",
+      "exact_matches": [],
+      "title_candidates": [
+        {
+          "qid": "Q38490712",
+          "label": "Against parafoveal semantic preprocessing during eye fixations in reading."
+        }
+      ],
+      "status": "no_exact_doi_match_review_before_creation"
+    },
+    "10.3758/S13423-014-0582-9": {
+      "doi": "10.3758/S13423-014-0582-9",
+      "title": "Lack of semantic parafoveal preview benefit in reading revisited",
+      "exact_matches": [
+        {
+          "qid": "Q33923197",
+          "revision": 2405659744,
+          "label": "Lack of semantic parafoveal preview benefit in reading revisited"
+        }
+      ],
+      "title_candidates": [],
+      "status": "reuse_existing"
+    },
+    "10.1093/HMG/DDP542": {
+      "doi": "10.1093/HMG/DDP542",
+      "title": "Comprehensive follow-up of the first genome-wide association study of multiple sclerosis identifies KIF21B and TMEM39A as susceptibility loci",
+      "exact_matches": [
+        {
+          "qid": "Q33630669",
+          "revision": 2441081799,
+          "label": "Comprehensive follow-up of the first genome-wide association study of multiple sclerosis identifies KIF21B and TMEM39A as susceptibility loci"
+        }
+      ],
+      "title_candidates": [],
+      "status": "reuse_existing"
+    },
+    "10.1136/JMG.2009.075911": {
+      "doi": "10.1136/JMG.2009.075911",
+      "title": "Replication of KIF21B as a susceptibility locus for multiple sclerosis: Table 1",
+      "exact_matches": [
+        {
+          "qid": "Q59149666",
+          "revision": 2256569413,
+          "label": "Replication of KIF21B as a susceptibility locus for multiple sclerosis"
+        }
+      ],
+      "title_candidates": [],
+      "status": "reuse_existing"
+    },
+    "10.1016/S2213-8587(18)30051-2": {
+      "doi": "10.1016/S2213-8587(18)30051-2",
+      "title": "Novel subgroups of adult-onset diabetes and their association with outcomes: a data-driven cluster analysis of six variables",
+      "exact_matches": [
+        {
+          "qid": "Q52675077",
+          "revision": 2297090198,
+          "label": "Novel subgroups of adult-onset diabetes and their association with outcomes: a data-driven cluster analysis of six variables"
+        }
+      ],
+      "title_candidates": [],
+      "status": "reuse_existing"
+    },
+    "10.1007/S00125-021-05490-8": {
+      "doi": "10.1007/S00125-021-05490-8",
+      "title": "Replication and cross-validation of type 2 diabetes subtypes based on clinical variables: an IMI-RHAPSODY study",
+      "exact_matches": [
+        {
+          "qid": "Q112291395",
+          "revision": 2261719657,
+          "label": "Replication and cross-validation of type 2 diabetes subtypes based on clinical variables: an IMI-RHAPSODY study"
+        }
+      ],
+      "title_candidates": [],
+      "status": "reuse_existing"
+    },
+    "10.1080/01690960802164242": {
+      "doi": "10.1080/01690960802164242",
+      "title": "Does darkness lead to happiness ? Masked suffix priming effects",
+      "exact_matches": [],
+      "title_candidates": [],
+      "status": "no_exact_doi_match_review_before_creation"
+    },
+    "10.1007/S11145-018-9858-1": {
+      "doi": "10.1007/S11145-018-9858-1",
+      "title": "Morphological effects in word identification: tracking the developmental trajectory of derivational suffixes in Spanish",
+      "exact_matches": [
+        {
+          "qid": "Q129832916",
+          "revision": 2236638640,
+          "label": "Morphological effects in word identification: tracking the developmental trajectory of derivational suffixes in Spanish"
+        }
+      ],
+      "title_candidates": [],
+      "status": "reuse_existing"
+    },
+    "10.1002/TEA.21227": {
+      "doi": "10.1002/TEA.21227",
+      "title": "“Science capital”: A conceptual, methodological, and empirical argument for extending bourdieusian notions of capital beyond the arts",
+      "exact_matches": [
+        {
+          "qid": "Q56505629",
+          "revision": 2407141105,
+          "label": "“Science capital”: A conceptual, methodological, and empirical argument for extending bourdieusian notions of capital beyond the arts"
+        }
+      ],
+      "title_candidates": [],
+      "status": "reuse_existing"
+    },
+    "10.1080/02671522.2019.1678062": {
+      "doi": "10.1080/02671522.2019.1678062",
+      "title": "Who has high science capital? An exploration of emerging patterns of science capital among students aged 17/18 in England",
+      "exact_matches": [],
+      "title_candidates": [],
+      "status": "no_exact_doi_match_review_before_creation"
+    },
+    "10.1037/H0093718": {
+      "doi": "10.1037/H0093718",
+      "title": "Studies of independence and conformity: I. A minority of one against a unanimous majority.",
+      "exact_matches": [
+        {
+          "qid": "Q30048314",
+          "revision": 2426947199,
+          "label": "Studies of independence and conformity: I. A minority of one against a unanimous majority"
+        }
+      ],
+      "title_candidates": [],
+      "status": "reuse_existing"
+    },
+    "10.1371/JOURNAL.PONE.0294325": {
+      "doi": "10.1371/JOURNAL.PONE.0294325",
+      "title": "The power of social influence: A replication and extension of the Asch experiment",
+      "exact_matches": [],
+      "title_candidates": [],
+      "status": "no_exact_doi_match_review_before_creation"
+    },
+    "10.31820/PT.28.3.7": {
+      "doi": "10.31820/PT.28.3.7",
+      "title": "Replication of the \"Asch effect\" in Bosnia and Herzegovin,Replikacija Aschova efekta u Bosni i Hercegovini",
+      "exact_matches": [],
+      "title_candidates": [],
+      "status": "no_exact_doi_match_review_before_creation"
+    },
+    "10.1177/0022219409335218": {
+      "doi": "10.1177/0022219409335218",
+      "title": "Emergent Literacy Intervention for Prekindergarteners at Risk for Reading Failure",
+      "exact_matches": [
+        {
+          "qid": "Q83738097",
+          "revision": 1223234529,
+          "label": "Emergent literacy intervention for prekindergarteners at risk for reading failure"
+        }
+      ],
+      "title_candidates": [],
+      "status": "reuse_existing"
+    },
+    "10.1080/10409289.2018.1475202": {
+      "doi": "10.1080/10409289.2018.1475202",
+      "title": "Efficacy of the Nemours BrightStart! Early Literacy Program: Treatment Outcomes From a Randomized Trial With At-Risk Prekindergartners",
+      "exact_matches": [],
+      "title_candidates": [],
+      "status": "no_exact_doi_match_review_before_creation"
+    },
+    "10.1093/SCAN/NSN004": {
+      "doi": "10.1093/SCAN/NSN004",
+      "title": "Oxytocin receptor ( OXTR ) and serotonin transporter ( 5-HTT ) genes associated with observed parenting",
+      "exact_matches": [
+        {
+          "qid": "Q36913209",
+          "revision": 2270313177,
+          "label": "Oxytocin receptor (OXTR) and serotonin transporter (5-HTT) genes associated with observed parenting"
+        }
+      ],
+      "title_candidates": [],
+      "status": "reuse_existing"
+    },
+    "10.1037/FAM0000034": {
+      "doi": "10.1037/FAM0000034",
+      "title": "A constructive replication of the association between the oxytocin receptor genotype and parenting.",
+      "exact_matches": [
+        {
+          "qid": "Q35702724",
+          "revision": 2426898731,
+          "label": "A constructive replication of the association between the oxytocin receptor genotype and parenting"
+        }
+      ],
+      "title_candidates": [],
+      "status": "reuse_existing"
+    }
+  },
+  "public_account_info": {
+    "userid": 8713779,
+    "name": "Hb19988",
+    "editcount": 12,
+    "registration": "2026-11-10T13:08:54Z",
+    "groups": [
+      "*",
+      "user"
+    ],
+    "rights": [
+      "createaccount",
+      "autocreateaccount",
+      "read",
+      "edit",
+      "createpage",
+      "createtalk",
+      "viewmyprivateinfo",
+      "editmyprivateinfo",
+      "editmyoptions",
+      "translate",
+      "urlshortener-create-url",
+      "abusefilter-view",
+      "abusefilter-log",
+      "unfuzzy",
+      "translate-empty-category",
+      "echo-read-notifications",
+      "flow-hide",
+      "flow-edit-title",
+      "item-term",
+      "property-term",
+      "item-merge",
+      "item-redirect",
+      "wbqc-check-constraints",
+      "reupload-own",
+      "move-rootuserpages",
+      "move-categorypages",
+      "minoredit",
+      "editmyusercss",
+      "editmyuserjson",
+      "editmyuserjs",
+      "sendemail",
+      "applychangetags",
+      "viewmywatchlist",
+      "editmywatchlist",
+      "logout",
+      "translate-messagereview",
+      "translate-groupreview",
+      "spamblacklistlog",
+      "abusefilter-blocked-external-domains-log",
+      "flow-lock",
+      "wbqc-check-constraints-uncached",
+      "mwoauthmanagemygrants",
+      "oathauth-enable"
+    ]
+  },
+  "counts": {
+    "reuse_existing": 12,
+    "no_exact_doi_match_review_before_creation": 7
+  }
+}
