@@ -29,7 +29,23 @@ The tool first repeats reconciliation and checks that the plan still matches cur
 
 This command publishes public Wikidata items under Hb19988. It is not a dry run. Read-only testing remains available through `RUN_READ_ONLY_TEST.cmd`.
 
-The saved plan expires 24 hours after preparation. A changed property/item or expired plan stops the run; ask for a refreshed plan rather than editing the timestamp. A failed or uncertain save also stops the run. Preserve the journal and inspect account contributions before resuming so a creation is never blindly repeated.
+The saved plan expires 24 hours after preparation. A changed property/item or expired plan stops the run; never edit the timestamp. If the plan expired before anything was saved, run `.\REFRESH_PILOT.cmd`. It is read-only and needs the server to be out of lag. It re-checks the six creations against current Wikidata and starts a new 24-hour window. The old plan is kept under `superseded\`. If the creations changed, it warns you to review again. `CHECK_SERVER_STATUS.cmd` shows when the plan expires. A failed or uncertain save also stops the run. Preserve the journal and inspect account contributions before resuming so a creation is never blindly repeated.
+
+## Undo as a group, and continuing after lag
+
+The pilot is saved as two EditGroups, each with its own undo link:
+- **originals**, 1 item: *Does darkness lead to happiness?…*, saved first;
+- **replications**, the other 5 items.
+
+Each save's edit summary names the batch and side, for example *FLoRA pilot (first 10 CSV rows), originals*. The launcher asks the displayed `APPLY wikidata … originals` phrase, then `APPLY wikidata … replications`. Type anything else at the second prompt to stop after the original and continue later. Either side can be undone without the other at:
+- originals: https://editgroups.toolforge.org/b/CB/e581b817dc3cda6c51dc457bc2b945c9/
+- replications: https://editgroups.toolforge.org/b/CB/81ef3e9d860b0d33f2f7bb064ee668e6/
+
+These links change if the plan is refreshed; the launcher always prints the current ones. Deleting created items needs an administrator; EditGroups files that request.
+
+If lag rises during the run, the refused save is recorded as not processed and the run stops cleanly. Start the launcher again later and it continues with the next item. An item that was saved but could not be read back is re-checked on the next run, not created again. An unrelated edit by someone else to one of the thirteen reused items no longer blocks the run.
+
+After the pilot, continue with [PAGES.md](PAGES.md).
 
 ## Server lag troubleshooting
 

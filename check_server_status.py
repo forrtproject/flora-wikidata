@@ -3,7 +3,23 @@ import sys
 import flora_pilot as p
 
 
+def plan_note():
+    """Local only: say how long the saved pilot plan remains valid."""
+    from datetime import datetime
+    from pathlib import Path
+    plan = Path(__file__).resolve().with_name("six-items.create.plan.json")
+    if not plan.exists():
+        return
+    expires = datetime.fromisoformat(p.read_json(plan)["created_at"]).timestamp() + 86400
+    when = datetime.fromtimestamp(expires).strftime("%d %b %H:%M")
+    if expires > datetime.now().timestamp():
+        print(f"Pilot plan valid until {when} (local time).")
+    else:
+        print(f"Pilot plan expired at {when}. Run REFRESH_PILOT.cmd (read-only) when the server is ready.")
+
+
 def main():
+    plan_note()
     print("Checking Wikidata server status. No credentials are loaded and no login or edit is attempted.")
     api = p.API("wikidata", "https://www.wikidata.org/wiki/User:Hb19988")
     # POST avoids mistaking an older cached GET response for current server health.

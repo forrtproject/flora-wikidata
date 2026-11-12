@@ -1,0 +1,46 @@
+<!--
+DRAFT. Post as a new section ("Add topic") on https://www.wikidata.org/wiki/Wikidata:Mass_editing_proposals
+Before posting: fill in the two test-edit links at the bottom (the EditGroups links printed after publishing).
+Then post the short notice at the end of this file on https://www.wikidata.org/wiki/Wikidata_talk:WikiCite
+-->
+== FLoRA replication studies: create missing items for the cited works ==
+'''Summary:''' Create items for scholarly works (journal articles, preprints, preregistrations) that appear in [https://forrt.org/replication-hub/flora/ FLoRA], FORRT's database of replication and reproduction studies, and are not yet on Wikidata. Works that already have an item are reused and not edited. About 1,500–1,900 new items, created in reviewed batches of 25–50 FLoRA rows.
+
+'''Why:''' FLoRA pairs each replication or reproduction study with the original study it tests (2,884 pairs on 11 November 2026). Having both works on Wikidata is the precondition for linking replications to their originals, which would make replication evidence queryable next to existing scholarly metadata. That linking step is ''not'' part of this proposal; it will be proposed separately, with its data model.
+
+'''Source:''' FLoRA only selects which works are needed. Every statement on a new item comes from the work's DOI registration record at Crossref or DataCite (CC0 metadata). No abstracts, quotations or replication outcomes are imported.
+
+'''Modelling:''' one edit per new item, containing:
+* English label (the title) and description: "scholarly article first published in YYYY" (preprints: "preprint first posted in YYYY"; preregistrations: "research preregistration deposited on OSF in YYYY")
+* {{P|31}}: {{Q|13442814}}, {{Q|580922}}, or {{Q|47461344}} for study registrations
+* {{P|1476}}, {{P|577}} (year precision), {{P|356}}
+* {{P|2093}} with {{P|1545}} for each author in registry order; no person items are created or matched
+* {{P|478}}, {{P|433}}, {{P|304}} when present
+* {{P|1433}} only when exactly one journal item carries the work's ISSN ({{P|236}}), ignoring items typed as articles
+* every statement is referenced with {{P|854}} (the Crossref/DataCite record) and {{P|813}}. I am happy to switch to {{P|248}} Crossref/DataCite with the DOI if that is preferred.
+
+'''Method:''' a reviewed Python script using the Wikibase API under my account, with maxlag=5 and at least 10 seconds between saves. Each batch is first prepared read-only and checked by me. Only rows where both the original and the replication pass every check are included. Each batch is saved as two EditGroups, original studies first, then replication/reproduction studies, so either side can be undone without the other. Every edit summary names the batch and side, for example "FLoRA page 2 (CSV rows 11-35), originals". Immediately before each save the script checks again that no item with the DOI has appeared; any error stops the batch.
+
+'''Existing data:''' in the first 35 FLoRA rows, 39 of 61 distinct works (about 64%) already had an item with the DOI. Those are only reused, never edited.
+
+'''Number of edits:''' about 1,500–1,900 item creations (estimated from the first 35 rows). No edits to existing items.
+
+'''Quality:''' a work is created automatically only if no item carries the DOI (haswbstatement search), the DOI is registered at Crossref or DataCite with a supported type, FLoRA's title agrees with the registry title, and no existing item has a matching English label. Otherwise the whole row is held for manual review. In a 25-row trial, 4 rows were held: a conference paper, a DOI from another registration agency, a report, and a possible duplicate without a DOI. All 16 journal matches in that trial agreed with Crossref's journal name. Works without a DOI (about 320), and DOIs with characters that search may misread, are never created automatically.
+
+'''One-off or recurring:''' a one-off import of the current dataset, spread over several weeks. If FLoRA grows, occasional small top-ups through the same reviewed process.
+
+'''Corrections:''' I watch my talk page and will undo any batch through EditGroups on request. Created items can only be removed by deletion; EditGroups files that request.
+
+'''Test edits:'''
+* Pilot, 6 items from the first 10 FLoRA rows: originals <!-- FILL IN: link -->, replications <!-- FILL IN: link -->
+* Batch 2, FLoRA rows 11–35: originals <!-- FILL IN: link -->, replications <!-- FILL IN: link -->
+<!-- The links are printed by CREATE_MISSING_ITEMS.cmd / PUBLISH_PAGE.cmd and by PAGE_STATUS.cmd. -->
+
+~~~~
+
+<!--
+=== Notice for https://www.wikidata.org/wiki/Wikidata_talk:WikiCite (new section) ===
+
+== Mass editing proposal: items for works in the FLoRA replication database ==
+Hello! I have posted a proposal at [[Wikidata:Mass editing proposals#FLoRA replication studies: create missing items for the cited works]] to create about 1,500–1,900 scholarly-work items (Crossref/DataCite metadata, author name strings, EditGroups-tagged batches) for works in FORRT's FLoRA database of replication studies. Feedback on the data model, especially the reference style and the descriptions, is very welcome there. ~~~~
+-->

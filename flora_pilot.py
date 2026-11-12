@@ -22,6 +22,8 @@ import requests
 
 VERSION = "1.0.0"
 MAX_EDITS = 10
+# Page mode (item creation only): at most this many CSV rows per page/edit group.
+PAGE_MAX_ROWS = 50
 TARGETS = {
     "wikidata": "https://www.wikidata.org/w/api.php",
     "test": "https://test.wikidata.org/w/api.php",
@@ -34,6 +36,10 @@ DATATYPES = {"relation": "wikibase-item", "goal": "wikibase-item",
 
 class Stop(Exception):
     """A deliberate fail-closed stop; messages must contain no credentials."""
+
+
+class Lagged(Stop):
+    """The server answered with an explicit maxlag error: the request was NOT processed."""
 
 
 def canonical(obj):
@@ -90,6 +96,19 @@ def required_text(value, name):
     if not isinstance(value, str) or not value.strip() or re.search(
             r"REPLACE|YOUR_|TODO|<[^>]+>", value, re.I):
         raise Stop(f"{name}: provide a real reviewed value, not a placeholder.")
+    if any(ord(c) < 32 for c in value):
+        raise Stop(f"{name}: control characters are not allowed.")
+    return value.strip()
+
+
+def data_text(value, name):
+    """Bibliographic values (titles, names, pages): non-empty, no control characters.
+
+    Unlike required_text, no placeholder-word check: real titles and surnames
+    contain words such as "replacement" or "Todorov".
+    """
+    if not isinstance(value, str) or not value.strip():
+        raise Stop(f"{name}: empty value.")
     if any(ord(c) < 32 for c in value):
         raise Stop(f"{name}: control characters are not allowed.")
     return value.strip()
@@ -243,8 +262,8 @@ class API:
             if code == "maxlag":
                 guidance = ("A save was refused; inspect the journal before resuming. Do not delete it."
                             if write else "Wait a minute, then run the launcher again. If the plan has expired, reconcile and review it again.")
-                raise Stop("Wikidata is temporarily lagging (maxlag); this request was not processed. "
-                           "This is not a password rejection." + lag_detail + " " + guidance)
+                raise Lagged("Wikidata is temporarily lagging (maxlag); this request was not processed. "
+                             "This is not a password rejection." + lag_detail + " " + guidance)
             if r.status_code != 200:
                 raise Stop(f"HTTP {r.status_code}; stopped. Writes are never automatically retried.")
             if code:
@@ -407,8 +426,14 @@ def validate_dataset(data, environment):
         required_text(dataset.get(key), f"dataset.{key}")
     url(dataset.get("url"))
     records = data.get("records")
-    if not isinstance(records, list) or not 1 <= len(records) <= MAX_EDITS:
-        raise Stop("Provide 1 to 10 records. Larger inputs are rejected, never silently truncated.")
+    limit = MAX_EDITS
+    page = data.get("page")
+    if page is not None:
+        if data.get("items_only") is not True or not isinstance(page, dict):
+            raise Stop("Pages are supported for item creation only.")
+        limit = PAGE_MAX_ROWS
+    if not isinstance(records, list) or not 1 <= len(records) <= limit:
+        raise Stop(f"Provide 1 to {limit} records. Larger inputs are rejected, never silently truncated.")
     ids = [required_text(r.get("record_id"), "record_id") for r in records]
     if len(set(ids)) != len(ids):
         raise Stop("Duplicate record_id in input.")
@@ -557,6 +582,13 @@ class Journal:
         except BaseException:
             self.db.rollback()
             raise
+
+    def release(self, record_id):
+        """Drop a reservation ONLY after the server explicitly refused it unprocessed (maxlag)."""
+        cursor = self.db.execute("DELETE FROM attempts WHERE record_id=? AND status='pending'", (record_id,))
+        self.db.commit()
+        if cursor.rowcount != 1:
+            raise Stop("Reservation to release was not pending; inspect the journal.")
 
     def finish(self, record_id, status, details):
         self.db.execute("UPDATE attempts SET status=?, details=? WHERE record_id=?",

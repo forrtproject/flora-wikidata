@@ -1,5 +1,22 @@
 # Verification record
 
+Split-groups update (12 November 2026): **94 automated tests passed**. Originals and replications are now separate edit groups, with originals saved first. Each group has its own confirmation, edit-group id and edit summary. Tests also cover stopping after the originals and continuing with only the replications, and holding a row whose title language is not recorded (no longer guessed). The pilot plan file and its hash are unchanged: the groups are computed when publishing. Pilot split: 1 original, 5 replications. A read-only rebuild added `REFRESH_PILOT.cmd` for an expired, unsaved pilot plan.
+
+Page-by-page update (11 November 2026): **90 automated tests passed** (75 earlier, 15 new in `tests/test_pages.py`). New tests cover:
+
+- next-page selection that skips handled rows;
+- reuse, create and hold decisions with a fake Wikidata and fake Crossref/DataCite;
+- the journal ledger reusing items created by earlier pages despite search-index lag;
+- one confirmation per page, plus the `--each` mode;
+- the autoconfirmed requirement for page mode;
+- EditGroups-tagged edit summaries;
+- clean resume after a maxlag-refused save;
+- re-checking, not re-creating, a saved-but-unverified item;
+- unrelated edits to reused items no longer blocking, while a new duplicate still does;
+- titles and author names such as "replacement" and "Todorov" no longer tripping the placeholder guard.
+
+A read-only rebuild of the six-item pilot plan with the changed code matched the reviewed plan exactly, including all item revisions. No login or save was made.
+
 Latest server-lag fix: **75 automated tests passed**. Tests cover bounded login retries after explicit maxlag rejection, Retry-After, no retries on failed credentials/ambiguous POST results, safe lag diagnostics, and unchanged no-retry behavior for item saves. A credential-free read-only POST reproduced Query Service lag; no real login or item save was attempted by the diagnostic.
 
 Prepared creation update: **65 tests passed**. The saved plan proposes six new items and reuses thirteen existing works. Bibliographic metadata was verified from Crossref/DataCite and journal matches checked via ISSNs. Q38490712 was matched using title, authors, date, volume, issue and pages. `flora_create.py` now checks actual edit/create rights for individually confirmed saves; the older updater retains its separate autoconfirmed guard. No real authentication or save has been performed.

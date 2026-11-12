@@ -1,5 +1,7 @@
 # FLoRA: a reviewed ten-edit Wikidata pilot
 
+**After the pilot: the rest of FLoRA, page by page.** See [PAGES.md](PAGES.md). `PREPARE_PAGE.cmd` prepares the next 25–50 rows read-only, `PUBLISH_PAGE.cmd` publishes a reviewed page with one confirmation, and every save (including the pilot's) carries an EditGroups tag so a page can be undone as a group.
+
 **To create the actual missing items now:** open [CREATE_NOW.md](CREATE_NOW.md), review [CREATION_REVIEW.md](CREATION_REVIEW.md), then run `CREATE_MISSING_ITEMS.cmd` in your terminal. A verified six-item creation plan is included; thirteen existing works are reused. The creation workflow now checks edit/create permissions and requires individual save confirmations rather than imposing a blanket autoconfirmed requirement.
 
 **Update for the requested CSV workflow:** use [CREATE_FIRST_TEN.md](CREATE_FIRST_TEN.md) and `flora_create.py` to process the first ten rows of `flora-validation/output/flora.csv` and create up to twenty missing original/replication items as Hb19988. The sections below describe the earlier existing-item relation updater and its separate ten-edit cap.
